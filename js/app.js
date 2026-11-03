@@ -267,12 +267,10 @@ function moreMenu() {
   const items = [
     ["/announcements", "Announcements", false],
     ["https://docs.varprotocol.org", "Docs", true],
-    ["mailto:support@variational.io", "Help & Support", true],
     ["https://arbdata.com/variational", "Stats", true],
     ["https://x.com/variationaleth", "X", true],
     ["https://t.me/variationaleth", "telegram", true],
     ["https://www.varprotocol.org", "Variational Website", true],
-    ["https://omni.testnet.variational.io", "Omni Testnet", true],
     ["https://docs.varprotocol.org/legal/privacy-policy", "Privacy Policy", true],
     ["https://docs.varprotocol.org/legal/terms-of-service", "Terms of Service", true],
   ];
@@ -772,9 +770,21 @@ function sortMark(key) {
   const down = active && state.pickerDir === "desc" ? "on" : "";
   return `<svg class="sort-ico" viewBox="0 0 10 12" aria-hidden="true"><path class="${up}" d="M5 1.2 8.2 5H1.8Z"/><path class="${down}" d="M5 10.8 1.8 7h6.4Z"/></svg>`;
 }
+function usFlag() {
+  const stripes = [1.7, 5.08, 8.46, 11.85, 15.23, 18.62].map((y) => `<rect y="${y}" width="22" height="1.7" fill="#fff"/>`).join("");
+  return `<svg class="flag-ico" viewBox="0 0 22 22" aria-hidden="true"><rect width="22" height="22" fill="#b22234"/>${stripes}<rect width="9.2" height="11.8" fill="#3c3b6e"/></svg>`;
+}
+function euFlag() {
+  const stars = Array.from({ length: 12 }, (_, i) => {
+    const a = (i / 12) * Math.PI * 2 - Math.PI / 2;
+    return `<circle cx="${(11 + Math.cos(a) * 5.6).toFixed(2)}" cy="${(11 + Math.sin(a) * 5.6).toFixed(2)}" r="0.85" fill="#fc0"/>`;
+  }).join("");
+  return `<svg class="flag-ico" viewBox="0 0 22 22" aria-hidden="true"><rect width="22" height="22" fill="#003399"/>${stars}</svg>`;
+}
 function pickerIcon(m) {
-  const flag = (m.sector === "indices" || m.sector === "fx") ? PICKER_FLAGS[m.symbol] : "";
-  if (flag) return `<span class="coin flag" style="width:22px;height:22px">${flag}</span>`;
+  if (m.sector === "indices" && PICKER_FLAGS[m.symbol] === "🇺🇸") return usFlag();
+  if (m.sector === "fx" && m.symbol === "EUR") return euFlag();
+  if (m.sector === "fx" && PICKER_FLAGS[m.symbol] === "🇺🇸") return usFlag();
   return coin(m, 22);
 }
 function changeCell(m) {

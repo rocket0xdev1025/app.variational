@@ -766,6 +766,7 @@ input[type="range"]::-webkit-slider-thumb {
   align-items: center;
   gap: 8px;
   height: 40px;
+  flex: none;
   padding: 0 12px;
   border-radius: 8px;
   background: var(--input);
@@ -790,6 +791,7 @@ input[type="range"]::-webkit-slider-thumb {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  flex: none;
   padding: 0 4px;
 }
 .picker-venues { display: flex; align-items: center; gap: 2px; min-width: 0; }
@@ -828,8 +830,11 @@ input[type="range"]::-webkit-slider-thumb {
 .picker-sectors {
   display: flex;
   gap: 2px;
+  flex: none;
+  height: 32px;
   overflow-x: auto;
-  padding: 0 4px 2px;
+  overflow-y: hidden;
+  padding: 0 4px;
 }
 .picker-sectors button {
   border: 0;
@@ -897,7 +902,7 @@ input[type="range"]::-webkit-slider-thumb {
   letter-spacing: 0;
   padding: 1px 6px;
 }
-.coin.flag { background: transparent; font-size: 16px; }
+.flag-ico { width: 22px; height: 22px; border-radius: 50%; flex: none; }
 .star-btn {
   width: 18px;
   height: 18px;
@@ -920,6 +925,7 @@ input[type="range"]::-webkit-slider-thumb {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  flex: none;
   padding-top: 8px;
   border-top: 1px solid var(--line);
 }
