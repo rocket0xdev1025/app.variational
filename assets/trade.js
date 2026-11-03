@@ -1,0 +1,2 @@
+import{s as r,n as s}from"../chunks/C7asQ-e_.js";import{S as m,i as p,d as c,t as i,a as u,m as f,c as l,b as _}from"../chunks/BBr4LSzS.js";import{T as g}from"../chunks/DsrO5EXw.js";function $(a){let t,n;return t=new g({props:{product:"perpetual"}}),{c(){_(t.$$.fragment)},l(e){l(t.$$.fragment,e)},m(e,o){f(t,e,o),n=!0},p:s,i(e){n||(u(t.$$.fragment,e),n=!0)},o(e){i(t.$$.fragment,e),n=!1},d(e){c(t,e)}}}class S extends m{constructor(t){super(),p(this,t,null,$,r,{})}}export{S as component};
+//# sourceMappingURL=10.D-0MJO_x.js.map

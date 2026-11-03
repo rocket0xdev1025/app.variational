@@ -1,0 +1,2114 @@
+./C7asQ-e_.js
+./BBr4LSzS.js
+./Ch6UOKfH.js
+./D43wmME5.js
+./Cy7-waEa.js
+./RePZCdZR.js
+./BpTySs2Z.js
+./KPqtBrng.js
+./D44sPWrg.js
+./B8lmr8I7.js
+./MKsNTLZN.js
+./BVtHy0y_.js
+./C64hE-cC.js
+./deq6Lt-d.js
+./B19Solvn.js
+./BnNx6IPB.js
+./RqJuLkLl.js
+./Bc8vynyb.js
+./BalDihKd.js
+./B1Yc1Kp-.js
+./DFNo_T8T.js
+./CgrAxU7P.js
+./D_O4sgBf.js
+./CDn2N56l.js
+./CWOPOH-v.js
+./CgU5AtxT.js
+./Bk9uIfWE.js
+./D6V0VDS8.js
+./CC_ImdRP.js
+./CW_TCkmp.js
+./PDpo5KvI.js
+./D-PEHkUS.js
+./Dyz2PsWS.js
+./B9NeeqGO.js
+./BHB612oQ.js
+./CYAw9tgD.js
+./BS5okTkA.js
+./CntPWF-9.js
+./Dr0sctjd.js
+./D7rOofTa.js
+./lzjsrg3L.js
+./BAxOptAI.js
+./DWR_nog_.js
+./CCr5bR_0.js
+./BhKYk9a5.js
+./BjRrVTaR.js
+./D4AJnqTw.js
+./DVtzVHgn.js
+https://www.coingecko.com/en/coins
+years
+months
+weeks
+days
+hours
+minutes
+seconds
+ days
+).replace(
+Ctrl
+,i.metaKey?
+,i.shiftKey?
+,i.altKey?
+,((s=i.key)==null?void 0:s.length)===1?i.key.toUpperCase():i.key||
+].filter(Boolean).join(
+);o in t&&(i.preventDefault(),t[o]())};return e.addEventListener(
+,r),{destroy(){e.removeEventListener(
+,r)}}}function Qh(e){let t,r,n,i,o,s,a,l=[{xmlns:
+},{viewBox:
+},{fill:
+},e[0]],u={};for(let f=0;f<l.length;f+=1)u=rn(u,l[f]);return{c(){t=Li(
+),r=Li(
+),n=Li(
+),i=Li(
+),o=Li(
+),s=Li(
+),a=Li(
+),this.h()},l(f){t=Pi(f,
+,{xmlns:!0,viewBox:!0,fill:!0});var g=M(t);r=Pi(g,
+:!0});var p=M(r);n=Pi(p,
+,{d:!0,fill:!0}),M(n).forEach(d),i=Pi(p,
+,{d:!0,fill:!0}),M(i).forEach(d),p.forEach(d),o=Pi(g,
+,{});var b=M(o);s=Pi(b,
+,{id:!0});var _=M(s);a=Pi(_,
+,{width:!0,height:!0,fill:!0}),M(a).forEach(d),_.forEach(d),b.forEach(d),g.forEach(d),this.h()},h(){v(n,
+),v(n,
+currentColor
+),v(i,
+clip-path
+url(#clip0_10101_1011)
+width
+height
+fill
+id
+clip0_10101_1011
+http://www.w3.org/2000/svg
+none
+svg
+path
+),v(r,
+/metadata/v2/open_interest
+openInterest
+w-[261px] min-w-[261px] max-w-[261px] md:max-w-[261px] lg:max-w-[261px] flex-col items-stretch dividends-tooltip
+at
+near
+xsmall
+button
+text-foreground-muted
+mouseenter
+mouseleave
+div
+DIV
+class
+flex flex-col items-start text-center gap-0.5
+label
+containerClass
+labelClass
+value
+isInteractive
+}=t,{labelClass:g=
+$$scope
+min-w-2 text-foreground-foreground
+min-w-5 min-h-5 w-5 h-5
+,n,i;return{c(){t=R(
+),n=j(r),this.h()},l(o){t=N(o,
+,{class:!0,title:!0});var s=M(t);n=q(s,r),s.forEach(d),this.h()},h(){v(t,
+text-base text-input-foreground truncate
+title
+)&&re(n,r),s[0]&2&&i!==(i=wr(o[1]))&&v(t,
+,i)},d(o){o&&d(t)}}}function m0(e){let t,r,n,i=e[1]&&$u(e),o=e[1]&&Su(e);return{c(){t=R(
+),i&&i.c(),r=V(),o&&o.c(),this.h()},l(s){t=N(s,
+,{slot:!0,class:!0});var a=M(t);i&&i.l(a),r=F(a),o&&o.l(a),a.forEach(d),this.h()},h(){v(t,
+prepend
+flex items-center gap-2 min-w-0
+cursor-help
+affirmative
+,e[62]))&&e[76](
+,e[62]).apply(this,arguments)}),t.$on(
+asset-tag
+size-2.5 shrink-0 text-foreground-muted-more transition-transform duration-200
+rotate-180
+slot
+append
+flex items-center gap-2 shrink-0
+whitespace-nowrap
+tooltip-link
+,isInteractive:!0,$$slots:{value:[w0]},$$scope:{ctx:e}}}),t.$on(
+,function(){_r(e[76](e[44],e[43]))&&e[76](e[44],e[43]).apply(this,arguments)}),t.$on(
+min-w-4
+text-left
+)},l(r){t=q(r,
+text-2xs text-link-default
+,class:ae(et,tt,
+,e[75](e[12]),(e[0]||!e[1])&&rt,
+),$$slots:{default:[S0]},$$scope:{ctx:e}}}),r.$on(
+,function(){_r(e[76](
+,ci,Du,void 0,e[11]))&&e[76](
+,ci,Du,void 0,e[11]).apply(this,arguments)}),r.$on(
+,e[77]);let s=e[41]&&Cu(e),a=e[12]===Cn.Closed&&e[21]&&yu(e);return{c(){t=R(
+),w(r.$$.fragment),n=V(),s&&s.c(),i=V(),a&&a.c(),this.h()},l(l){t=N(l,
+,{slot:!0,class:!0});var u=M(t);y(r.$$.fragment,u),n=F(u),s&&s.l(u),i=F(u),a&&a.l(u),u.forEach(d),this.h()},h(){v(t,
+flex items-center
+text-left cursor-help
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[4]&4096&&t!==(t=n[136]+
+)&&re(r,t)},d(n){n&&d(r)}}}function P0(e){let t,r;return t=new ve({props:{size:
+,slot:
+currency
+USD
+)&&re(r,t)},d(n){n&&d(r)}}}function D0(e){let t,r;return t=new ve({props:{size:
+small
+urgent
+warning
+cursor-help shrink-0 whitespace-nowrap
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[1]&6291457&&t!==(t=(n[31]===
+?n[52]:n[53])+
+)&&re(r,t)},d(n){n&&d(r)}}}function M0(e){let t,r,n,i;r=new ve({props:{size:
+,class:ae(et,tt,e[28]&&rt,
+),$$slots:{default:[A0]},$$scope:{ctx:e}}});let o=e[31]&&Pu(e);return{c(){t=R(
+),w(r.$$.fragment),n=V(),o&&o.c(),this.h()},l(s){t=N(s,
+,{slot:!0,class:!0});var a=M(t);y(r.$$.fragment,a),n=F(a),o&&o.l(a),a.forEach(d),this.h()},h(){v(t,
+flex items-center gap-1
+,isInteractive:!0,$$slots:{value:[B0]},$$scope:{ctx:e}}}),t.$on(
+,function(){_r(e[76](e[51],e[50]))&&e[76](e[51],e[50]).apply(this,arguments)}),t.$on(
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&8192&&t!==(t=Bo(n[13].predicted_funding_rate,
+)&&re(r,t)},d(n){n&&d(r)}}}function V0(e){let t;return{c(){t=j(
+)},m(r,n){S(r,t,n)},d(r){r&&d(t)}}}function z0(e){let t=Al(e[13].next_funding_time)+
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&8192&&t!==(t=Al(n[13].next_funding_time)+
+)&&re(r,t)},d(n){n&&d(r)}}}function B0(e){let t,r,n,i,o,s,a,l,u;return r=new ve({props:{size:
+,class:ae(et,tt,e[74](Number(e[13].predicted_funding_rate)),(e[0]||!e[1]||e[6])&&rt,
+),$$slots:{default:[F0]},$$scope:{ctx:e}}}),i=new ve({props:{size:
+,class:
+,$$slots:{default:[V0]},$$scope:{ctx:e}}}),s=new ve({props:{size:
+,class:ae(et,tt,(e[0]||!e[1]||e[6])&&rt,
+),$$slots:{default:[z0]},$$scope:{ctx:e}}}),{c(){t=R(
+),w(r.$$.fragment),n=V(),w(i.$$.fragment),o=V(),w(s.$$.fragment),this.h()},l(f){t=N(f,
+role
+tabindex
+),v(t,
+flex cursor-help
+,e[47],ci))&&e[76](
+,e[47],ci).apply(this,arguments)}),mr(t,
+text-left min-w-8
+,isInteractive:!0,$$slots:{value:[j0]},$$scope:{ctx:e}}}),t.$on(
+,function(){_r(e[76](e[49],e[48]))&&e[76](e[49],e[48]).apply(this,arguments)}),t.$on(
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&1048576&&t!==(t=Bo(n[20]??
+)&&re(r,t)},d(n){n&&d(r)}}}function U0(e){let t;return{c(){t=j(
+)},m(r,n){S(r,t,n)},d(r){r&&d(t)}}}function H0(e){let t=Bo(e[19]??
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&524288&&t!==(t=Bo(n[19]??
+)&&re(r,t)},d(n){n&&d(r)}}}function Iu(e){let t,r,n,i;return t=new ve({props:{size:
+,$$slots:{default:[Q0]},$$scope:{ctx:e}}}),n=new ve({props:{size:
+,e[18],ci))&&e[76](
+,e[18],ci).apply(this,arguments)}),mr(t,
+,e[77])],u=!0)},p(p,b){e=p;const _={};b[0]&1048592&&(_.class=ae(et,tt,e[74](e[20]),e[4]&&rt,
+,e[10]?
+,ci,_u,e[36]))&&e[76](e[37],
+,ci,_u,e[36]).apply(this,arguments)}),t.$on(
+text-foreground-affirmative
+,i,o,s,a,l,u,f=e[14].content+
+,g,p;return a=new Yh({props:{class:
+}}),{c(){t=R(
+),r=R(
+),i=j(n),o=V(),s=R(
+),w(a.$$.fragment),l=V(),u=R(
+),g=j(f),this.h()},l(b){t=N(b,
+,{class:!0,slot:!0});var _=M(t);r=N(_,
+,{class:!0});var h=M(r);i=q(h,n),h.forEach(d),o=F(_),s=N(_,
+,{class:!0});var $=M(s);y(a.$$.fragment,$),l=F($),u=N($,
+,{});var O=M(u);g=q(O,f),O.forEach(d),$.forEach(d),_.forEach(d),this.h()},h(){v(r,
+font-semibold
+flex items-start gap-1
+flex flex-col gap-2
+tooltip-content
+)&&re(i,n),(!p||_[0]&16384)&&f!==(f=b[14].content+
+secondary
+max-w-[260px] sm:max-w-[350px] justify-between font-normal border-none overflow-hidden
+data-testid
+asset-summary-token-selector
+click
+,isInteractive:!0,$$slots:{value:[M0]},$$scope:{ctx:e}}}),$.$on(
+,function(){_r(e[76](e[56],e[55]))&&e[76](e[56],e[55]).apply(this,arguments)}),$.$on(
+,e[77]);const ge=[R0,N0],Ce=[];function ee(J,K){return J[5]?0:1}I=ee(e),U=Ce[I]=ge[I](e);let z=e[9]&&Eu(e),Ie={class:
+,position:{x:e[14].x,y:e[14].y},$$slots:{
+:[Y0]},$$scope:{ctx:e}};return P=new Ia({props:Ie}),e[124](P),{c(){t=R(
+),w(n.$$.fragment),i=V(),o=R(
+),s=R(
+flex gap-x-4 items-center min-w-0
+flex flex-nowrap gap-6 px-0 lg:px-3 overflow-y-scroll scrollbar-hidden
+relative items-center justify-start flex-1 min-w-0 tabular-nums
+relative flex items-center justify-between gap-3
+min-w-[280px] max-w-[280px]
+),g=s?s[1].padStart(2,
+,p=a?a[1].padStart(2,
+GET
+text-foreground-destructive
+;function zn(fe){switch(fe){case Cn.Open:return
+;case Cn.Closed:case Cn.Halted:return
+;default:return
+infoMouseenter
+infoMouseleave
+unshift
+push
+isLoading
+asset
+error
+dialog.assetPrice.label.indexPrice
+dialog.assetPrice.label.volume24h
+dialog.assetPrice.label.change24h
+common.info.markPrice
+common.info.markPriceDescription
+Equities
+Pre-IPO
+Indices
+ETF
+),e.$$.dirty[3]&65536&&r(62,h=He(
+)),e.$$.dirty[3]&8192&&r(61,$=g!==
+&&g!==
+),e.$$.dirty[0]&2&&r(105,O=Ye?Fp(Ye):!1),e.$$.dirty[3]&71680&&r(60,I=He(O?
+:p?
+dialog.assetPrice.label.fdv
+common.text.hour
+dialog.assetPrice.label.fundingRate
+}})),e.$$.dirty[3]&65536&&r(7,Y=He(
+)),e.$$.dirty[3]&65536&&r(88,P=He(
+)),e.$$.dirty[3]&65536&&r(87,E=He(
+)),e.$$.dirty[3]&71680&&r(58,Q=He(O?
+dialog.assetPrice.details.fdv.header
+dialog.assetPrice.details.marketCap.text
+dialog.assetPrice.details.fdv.text
+dialog.assetPrice.details.openInterest.header
+table.markets.tooltip.openInterest
+dialog.assetPrice.details.openInterest.capHeader
+dialog.assetPrice.label.nearCap
+dialog.assetPrice.label.atCap
+dialog.assetPrice.details.fundingRate.header
+dialog.assetPrice.details.fundingRate.text
+dialog.assetPrice.details.swapFunding.header
+dialog.assetPrice.details.swapFunding.text
+common.info.annualFundingRate
+,interval:`${o.interval_hr}${U}`}}):
+),e.$$.dirty[3]&65536&&r(46,te=He(
+)),e.$$.dirty[3]&65536&&r(45,X=He(
+)),e.$$.dirty[3]&65536&&r(44,Ne=He(
+)),e.$$.dirty[3]&134283264&&r(43,ie=He(
+),e.$$.dirty[3]&65536&&r(40,Ee=He(
+)),e.$$.dirty[0]&2|e.$$.dirty[3]&268435456&&r(9,Ae=Ir&&!(
+common.text.yes
+common.text.no
+dialog.assetPrice.details.dividends.headerPays
+dialog.assetPrice.details.dividends.headerDoesNotPay
+dialog.assetPrice.details.dividends.text
+dialog.assetPrice.details.dividends.lastDividend
+dialog.assetPrice.details.dividends.nextDividend
+object
+floor
+points
+dialog.assetPrice.details.swapFunding.annualDetailsMetals
+dialog.assetPrice.details.swapFunding.annualDetails
+dialog.assetPrice.details.swapFunding.longsPay
+dialog.assetPrice.details.swapFunding.longsReceive
+dialog.assetPrice.details.swapFunding.shortsReceive
+dialog.assetPrice.details.swapFunding.shortsPay
+max-w-md
+close
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&2&&t!==(t=n[1].symbol+
+)&&re(r,t)},d(n){n&&d(r)}}}function rb(e){let t,r=e[5].replace(
+,fu(mo(e[1])??`/${e[2]}/${e[1].symbol}`,e[4],
+_self
+{link}
+underline
+)&&t.p(r)},d(i){i&&(d(n),t.d())}}}function nb(e){let t,r,n,i,o,s,a;return r=new Fl({props:{token:e[1],class:
+}}),i=new ve({props:{class:
+,$$slots:{default:[tb]},$$scope:{ctx:e}}}),s=new ve({props:{size:
+,align:
+,$$slots:{default:[rb]},$$scope:{ctx:e}}}),{c(){t=R(
+),w(r.$$.fragment),n=V(),w(i.$$.fragment),o=V(),w(s.$$.fragment),this.h()},l(l){t=N(l,
+flex flex-col items-center gap-1
+footer
+flex-1
+confirm-token-dialog
+flex flex-col gap-4
+confirm
+open
+token
+product
+dialog.perpetual.error.cexWarning.header
+dialog.perpetual.error.cexWarning.text
+common.text.here
+modal.tokenConfirm.button.confirm
+!w-7 !h-7
+flex flex-1 flex-col items-center
+w-20
+sizing-percentage-input
+focus
+changed
+pasteError
+;return{c(){t=R(
+),t.textContent=r,this.h()},l(n){t=N(n,
+,{class:!0,
+:!0}),Os(t)!==
+&&(t.textContent=r),this.h()},h(){v(t,
+mr-2
+span
+SPAN
+subtitle
+flex flex-1 gap-3 items-center
+flex gap-2 flex-col
+max-w-[500px]
+;async function we(){if(!(H||ge)){try{Vo.addAction(
+),await _m(
+LeverageDialog
+Validation error: range
+max
+not enough free balance to decrease leverage
+add collateral to the isolated position
+change
+)};function ue(ye){zt.call(this,e,ye)}function pe(ye){zt.call(this,e,ye)}return e.$$set=ye=>{
+in ye&&r(15,B=ye.asset),
+in ye&&r(0,H=ye.disabled),
+in ye&&r(45,X=ye.$$scope)},e.$$.update=()=>{var ye,it,Ze,st,bt;e.$$.dirty[1]&64&&r(12,n=oe(
+)),e.$$.dirty[1]&64&&r(11,i=oe(
+)),e.$$.dirty[0]&32772|e.$$.dirty[1]&64&&r(10,o=oe(
+,{values:{asset:wr(B),max:de}})),e.$$.dirty[1]&64&&r(32,s=oe(
+dialog.leverage.maxPositionSize
+dialog.leverage.disclaimer
+dialog.leverage.error.unableToSet
+dialog.leverage.error.maxNotionalExceeded
+dialog.leverage.error.marginRequirementExceeded
+dialog.leverage.error.isolatedCollateralRequired
+maxNotional
+marginRequirement
+isolatedCollateral
+),e.$$.dirty[0]&2&&r(3,be=
+false-subtitle
+aria-pressed
+true-subtitle
+destructive
+false-button
+true-button
+aria-checked
+flex flex-1
+disabled opacity-50
+switch
+checked
+falseLabel
+falseSubtitle
+trueLabel
+trueSubtitle
+falseCheckedClass
+falseUncheckedClass
+trueCheckedClass
+trueUncheckedClass
+buttonClass
+buttonSize
+buttonType
+Buy
+}=t,{trueLabel:b=
+}=t,{trueSubtitle:_=
+}=t,{falseCheckedClass:h=
+}=t,{falseUncheckedClass:$=
+}=t,{trueCheckedClass:O=
+}=t,{trueUncheckedClass:I=
+}=t,{buttonClass:U=
+}=t,{buttonSize:W=
+}=t,{buttonType:Y=
+}=t;const P=kr();function E(ne){f!==ne&&(r(0,f=ne),P(
+,f))}const Q=()=>E(!1),le=()=>E(!0);return e.$$set=ne=>{t=rn(rn({},t),Qo(ne)),r(11,a=Mn(t,s)),
+in ne&&r(0,f=ne.checked),
+in ne&&r(1,g=ne.falseLabel),
+in ne&&r(2,p=ne.falseSubtitle),
+in ne&&r(3,b=ne.trueLabel),
+in ne&&r(4,_=ne.trueSubtitle),
+in ne&&r(12,h=ne.falseCheckedClass),
+in ne&&r(13,$=ne.falseUncheckedClass),
+in ne&&r(14,O=ne.trueCheckedClass),
+in ne&&r(15,I=ne.trueUncheckedClass),
+in ne&&r(16,U=ne.buttonClass),
+in ne&&r(5,W=ne.buttonSize),
+in ne&&r(6,Y=ne.buttonType),
+in ne&&r(20,u=ne.$$scope)},e.$$.update=()=>{e.$$.dirty&77825&&r(9,n=ae(
+,U,f?$:h)),e.$$.dirty&114689&&r(8,i=ae(
+buy
+sell
+name
+passed
+limit
+result
+message
+user_gross_notional_limit_risk_check
+user_net_notional_limit_risk_check
+user_instrument_limit_risk_check
+user_risk_checks
+olp_risk_checks
+olp_var_limit_risk_check
+olp_gross_notional_risk_check
+olp_net_notional_risk_check
+olp_position_limit_risk_check
+skew_as_percent_of_fdv_limit
+oi_as_percent_of_fdv_limit
+skew_limit_exceeded
+oi_limit_exceeded
+global_configs_check
+internal
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&524289&&t!==(t=ui(Tr(n[0]),n[19])+
+)&&re(r,t)},d(n){n&&d(r)}}}function Uu(e){let t,r,n,i,o;return r=new ve({props:{size:
+,role:
+,$$slots:{default:[Hb]},$$scope:{ctx:e}}}),r.$on(
+,function(){_r(e[20](
+,e[9]))&&e[20](
+,e[9]).apply(this,arguments)}),r.$on(
+,e[21]),i=new ve({props:{size:
+,class:et,
+isolated-margin
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&524290&&t!==(t=ui(Tr(n[1]),n[19])+
+,{minimumFractionDigits:2,maximumFractionDigits:2}),e[19])+
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&524292&&t!==(t=ui(Tr(n[2],
+,{minimumFractionDigits:2,maximumFractionDigits:2}),n[19])+
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&262144&&t!==(t=Wo(n[18])+
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&131072&&t!==(t=Wo(n[17])+
+)&&re(r,t)},d(n){n&&d(r)}}}function Hu(e){let t,r,n,i;return t=new ve({props:{size:
+,$$slots:{default:[Zb]},$$scope:{ctx:e}}}),n=new ve({props:{
+new-initial-margin-usage
+bg-background-muted-more
+)},m(r,n){S(r,t,n)},d(r){r&&d(t)}}}function Xb(e){let t=Wo(e[16])+
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&65536&&t!==(t=Wo(n[16])+
+)&&re(r,t)},d(n){n&&d(r)}}}function Qu(e){let t,r,n,i;return t=new ve({props:{size:
+,$$slots:{default:[t2]},$$scope:{ctx:e}}}),n=new ve({props:{size:
+,class:ae(et,tt,e[3]&&ae(rt,
+tooltip
+,e[5]))&&e[20](
+,e[5]).apply(this,arguments)}),h.$on(
+,e[21]),O=new ve({props:{size:
+,class:ae(et,tt,!e[19]&&Ro(e[18]),e[3]&&ae(rt,
+)),$$slots:{default:[Kb]},$$scope:{ctx:e}}}),W=new ve({props:{size:
+,$$slots:{default:[Yb]},$$scope:{ctx:e}}}),W.$on(
+,e[12]))&&e[20](
+,e[12]).apply(this,arguments)}),W.$on(
+,e[21]),E=new ve({props:{size:
+,class:ae(et,!e[19]&&Ro(e[17])),
+initial-margin-usage
+flex gap-1 items-center
+account-details flex flex-col
+left
+initialMargin
+newInitialMargin
+maintenanceMargin
+portfolioBalance
+isolatedMargin
+marginBalance
+newMarginBalance
+unrealizedPnl
+orderNotional
+common.text.marginRatio
+common.info.initialMargin
+dialog.perpetual.details.accountBalance
+dialog.perpetual.details.isolatedMargin
+dialog.perpetual.info.isolatedMargin
+dialog.perpetual.details.accountLeverage
+dialog.perpetual.details.unrealizedPnl
+dialog.portfolioSummary.label.maintenanceMargin
+common.info.maintenanceMargin
+!w-5 !h-5
+submit-button
+aria-keyshortcuts
+Enter
+}=t,{quantityInput:Q=0}=t,{inputMode:le=fr.Quantity}=t,{errorMessage:ne=
+}=t,{noPositionsError:ge=void 0}=t,{isReduceOnly:Ce=!1}=t,{onboardingText:ee=
+}=t,{disabled:z=!1}=t,{isSizeRequired:Ie=!0}=t,{buttonSize:J=
+}=t,{isSwap:K=!1}=t,{isTradingLocked:Se=!1}=t,{marketStatus:oe=void 0}=t,{tradingSessions:te=void 0}=t;function X(){O(
+common.text.closes
+common.text.opens
+isSell
+isWalletConnected
+isOnboardingComplete
+showTurnstileDialog
+isSlippageValid
+tokenSymbol
+quantityInput
+inputMode
+errorMessage
+noPositionsError
+isReduceOnly
+onboardingText
+disabled
+isSizeRequired
+isSwap
+isTradingLocked
+marketStatus
+tradingSessions
+dialog.perpetual.button.enterSize
+dialog.perpetual.button.invalidSlippage
+common.text.buy
+common.text.sell
+dialog.perpetual.button.marketOpensIn
+liquidation-price
+)},m(r,n){S(r,t,n)},p:Fe,i:Fe,o:Fe,d(r){r&&d(t)}}}function p2(e){let t,r;return t=new go({props:{naDisplay:
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&1&&t!==(t=(n[0]<=Gi?Tr(n[0]):`> ${Tr(Gi)}`)+
+)},m(r,n){S(r,t,n)},p:Fe,i:Fe,o:Fe,d(r){r&&d(t)}}}function T2(e){let t,r,n,i;return t=new ve({props:{size:
+,class:et,$$slots:{default:[k2]},$$scope:{ctx:e}}}),n=new ve({props:{size:
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&2&&t!==(t=Ei(n[1])+
+)&&re(r,t)},d(n){n&&d(r)}}}function C2(e){let t=wr(e[2])+
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&4&&t!==(t=wr(n[2])+
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&360448&&t!==(t=(n[18]>=0?n[16]:n[15])+
+)&&re(r,t)},d(n){n&&d(r)}}}function v2(e){let t;return{c(){t=j(
+)},m(r,n){S(r,t,n)},p:Fe,d(r){r&&d(t)}}}function P2(e){let t=(Math.abs(e[18])<=Gi?Tr(Math.abs(e[18])):`> ${Tr(Gi)}`)+
+)},m(r,n){S(r,t,n)},p:Fe,i:Fe,o:Fe,d(r){r&&d(t)}}}function D2(e){let t,r;return t=new go({props:{class:et,naDisplay:
+line-through cursor-help
+order-value
+flex gap-1 items-baseline
+order-quantity
+additional-margin-text
+additional-margin
+text-2xs
+warningTooltipOpen
+warningTooltipClose
+flex items-center gap-2
+flex gap-1 justify-end
+order-details flex flex-col
+,content:f,x:J,y:Ie+(window.scrollY||document.documentElement.scrollTop)})},ee=()=>{$(
+)};return e.$$set=z=>{
+in z&&r(22,O=z.initialMargin),
+in z&&r(23,I=z.newInitialMargin),
+in z&&r(0,U=z.orderNotional),
+in z&&r(1,W=z.orderQuantity),
+in z&&r(2,Y=z.asset),
+in z&&r(3,P=z.isLoading),
+in z&&r(4,E=z.estimatedSlippage),
+in z&&r(5,Q=z.quotedPrice),
+in z&&r(6,le=z.hasQuoteError),
+in z&&r(7,ne=z.liquidationPrice),
+common.text.marginRequired
+common.text.marginReduction
+dialog.perpetual.details.orderValue
+dialog.perpetual.details.fee
+dialog.perpetual.details.estimatedFee
+dialog.slippage.label.slippage
+common.info.quotedPrice
+dialog.perpetual.details.liquidationPrice
+Order Quantity
+tpsl-checkbox
+LABEL
+for
+flex items-center cursor-pointer
+cursor-default opacity-50
+flex flex-1 items-center justify-start gap-2 min-h-6
+pointer-events-none
+reduce-only-checkbox
+:` - ${e[6]}`}`),v(t,
+flex flex-col
+:` - ${b[6]}`}`))&&v(r,
+}=t,{isSell:$=!1}=t,{isCloseOnlyMode:O=!1}=t;const I=kr();function U(E){b&&(r(1,g=E),g&&r(0,p=!1),I(
+,g))}function W(E){r(0,p=E),p&&r(1,g=!1),I(
+,p)}const Y=E=>U(E.detail),P=E=>W(E.detail);return e.$$set=E=>{
+in E&&r(1,g=E.isReduceOnly),
+in E&&r(0,p=E.showTPSL),
+in E&&r(2,b=E.hasPosition),
+in E&&r(11,_=E.selectedOrderType),
+in E&&r(12,h=E.tokenSymbol),
+in E&&r(13,$=E.isSell),
+dialog.perpetual.label.reduceOnly
+dialog.perpetual.label.tpsl
+common.text.long
+common.text.short
+dialog.perpetual.error.noPosition
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&256&&t!==(t=n[20].label+
+)&&re(r,t)},d(n){n&&d(r)}}}function Ju(e){let t,r,n=e[20],i;function o(){return e[13](e[20])}r=new Vl({props:{class:
+,active:e[20].value===e[0],$$slots:{default:[j2]},$$scope:{ctx:e}}}),r.$on(
+,o);const s=()=>e[14](t,n),a=()=>e[14](null,n);return{c(){t=R(
+),w(r.$$.fragment),this.h()},l(l){t=N(l,
+,{class:!0});var u=M(t);y(r.$$.fragment,u),u.forEach(d),this.h()},h(){v(t,
+relative flex flex-1 w-1/3
+flex-1 border-0 text-tab-foreground text-xs inline-flex items-center justify-center
+bg-transparent text-foreground-foreground
+bg-transparent hover:bg-tab-background-hover
+selected
+select
+relative w-1/3
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&32&&t!==(t=n[20].label+
+toggle-select
+flex items-center gap-1 relative
+Select
+w-32
+items
+dropdownStartIndex
+naDisplay
+widthClass
+w-[130px] sm:!w-[132px]
+selectedOrderType
+showTriggerOrder
+dialog.perpetual.label.pro
+Pro
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&129&&t!==(t=(n[0]===void 0?gn:ui(Tr(n[0]),n[7]))+
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&136&&t!==(t=ui(Ei(n[3]),n[7])+
+positionRecord
+availableToTrade
+currentLeverage
+dialog.perpetual.details.availableToTrade
+dialog.perpetual.details.maxPositionSize
+common.text.currentPosition
+flex-none
+,i,o,s,a,l,u,f;return s=new d1({}),{c(){t=R(
+),i=j(n),o=V(),w(s.$$.fragment),this.h()},l(g){t=N(g,
+:!0,class:!0,title:!0});var p=M(t);r=N(p,
+,{class:!0});var b=M(r);i=q(b,n),b.forEach(d),o=F(p),y(s.$$.fragment,p),p.forEach(d),this.h()},h(){v(r,
+max-w-16 text-ellipsis text-nowrap overflow-hidden
+input-mode-toggle
+),t.disabled=e[6],v(t,
+,a=e[0]===fr.Quantity?e[7]:void 0)},m(g,p){S(g,t,p),T(t,r),T(r,i),T(t,o),C(s,t,null),l=!0,u||(f=mr(t,
+,e[12]),u=!0)},p(g,p){(!l||p&137)&&n!==(n=(g[0]===fr.Quantity?g[7]:g[3])+
+)&&re(i,n),(!l||p&64)&&(t.disabled=g[6]),(!l||p&129&&a!==(a=g[0]===fr.Quantity?g[7]:void 0))&&v(t,
+quantity-input
+input
+blur
+keypress
+quantity-input-container
+}=t,{disabled:b=!1}=t,{isShortCutEnabled:_=!1}=t,{hasError:h=!1}=t,$,O=!0;function I(){It(On,o=
+,o),g===fr.Quantity?r(0,g=fr.Amount):r(0,g=fr.Quantity),localStorage.setItem(Om,g),l(
+,g)}function U(z){o!==
+&&(It(On,o=
+,o),l(
+submit
+maxFractionDigits
+quoteCurrency
+isShortCutEnabled
+hasError
+dialog.perpetual.label.size
+isDragged
+interact
+w-16
+,showTitle:!1,max:$6,
+flex flex-col flex-1 gap-2
+flex gap-3 items-end
+sizingSlider
+sizingInput
+sizingChange
+sizingInteraction
+isDisabled
+h-3 w-3
+BUTTON
+Reload Quote
+flex justify-end min-w-16
+!h-4 !w-4 text-foreground-destructive
+min-w-16
+percent-spread
+reload
+spread
+isError
+common.text.spread
+common.info.spread
+dialog.perpetual.notification.quoteError.header
+shrink-0 text-nowrap
+block truncate
+min-w-0 max-w-[70%]
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i&1&&t!==(t=n[0].name+
+)&&re(r,t)},d(n){n&&d(r)}}}function tf(e){let t,r,n,i,o;return r=new ve({props:{size:
+,$$slots:{default:[N6]},$$scope:{ctx:e}}}),i=new ve({props:{size:
+,class:et,$$slots:{default:[R6]},$$scope:{ctx:e}}}),{c(){t=R(
+),w(r.$$.fragment),n=V(),w(i.$$.fragment),this.h()},l(s){t=N(s,
+,{class:!0});var a=M(t);y(r.$$.fragment,a),n=F(a),y(i.$$.fragment,a),a.forEach(d),this.h()},h(){v(t,
+,r,n;return{c(){r=j(t),n=j(
+)},l(o){r=q(o,t),n=q(o,
+)},m(o,s){S(o,r,s),S(o,n,s)},p(o,s){var a;s&129&&t!==(t=(((a=o[7][Yi(o[0])])==null?void 0:a.max)||qi(o[0]))+
+)&&re(r,t)},d(o){o&&(d(r),d(n))}}}function rf(e){let t,r,n,i,o;return r=new ve({props:{size:
+,$$slots:{default:[F6]},$$scope:{ctx:e}}}),i=new ve({props:{size:
+,$$slots:{default:[V6]},$$scope:{ctx:e}}}),{c(){t=R(
+w-4 h-4 p-0.5 text-foreground-muted-more hover:text-foreground-foreground-brand
+),w(r.$$.fragment),this.h()},l(s){t=N(s,
+,{href:!0,title:!0,target:!0});var a=M(t);y(r.$$.fragment,a),a.forEach(d),this.h()},h(){v(t,
+,n=e[8](e[0])),v(t,
+,i=e[8](e[0])),v(t,
+_blank
+href
+token-details flex flex-col
+,content:f.name,x:P,y:E,triggerElementHeight:Q})}function U(){u(
+)}function W(Y){Qe[Y?
+):!0),e.$$.dirty&3&&(f==null||f.name,qd().then($)),e.$$.dirty&2048&&r(5,i=a(
+)),e.$$.dirty&2048&&r(4,o=a(
+)),e.$$.dirty&2048&&r(3,s=a(
+{fieldLabel1}
+{fieldLabel2}
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&2129922&&t!==(t=n[1].error.message.replace(
+,n[15]).replace(
+,n[21])+
+)&&re(r,t)},d(n){n&&d(r)}}}function j6(e){let t=e[0].error.message.replace(
+,e[16]).replace(
+,e[21])+
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&2162689&&t!==(t=n[0].error.message.replace(
+,n[16]).replace(
+mb-4
+lastInput
+itemMouseenter
+itemMouseleave
+inputModeChange
+takeProfitChange
+stopLossChange
+takeProfitDetails
+stopLossDetails
+orderPrice
+orderQuantity
+maxPriceFractionDigits
+showInlineError
+hasConflictWithExistingTp
+hasConflictWithExistingSl
+leverage
+dialog.perpetual.label.limitPrice
+dialog.perpetual.label.marketPrice
+dialog.perpetual.label.TP
+dialog.perpetual.label.gain
+dialog.perpetual.label.SL
+dialog.perpetual.label.loss
+dialog.perpetual.label.takeProfitPrice
+dialog.perpetual.label.stopLossPrice
+)},l(n){t=q(n,e[38]),r=q(n,
+font-normal
+ask-price-display
+bid-price-display
+limit-price-input
+decoration-alpha-foreground-foreground-40 text-alpha-foreground-foreground-80 tooltip-link
+text-foreground-foreground-brand enabled:hover:text-foreground-foreground disabled:text-alpha-foreground-foreground-40
+ml-[15px]
+,n,i,o,s;return{c(){t=R(
+),n=j(r),i=j(
+),this.h()},l(a){t=N(a,
+,{role:!0,class:!0});var l=M(t);n=q(l,r),i=q(l,
+),l.forEach(d),this.h()},h(){v(t,
+)&&re(n,r)},d(a){a&&d(t),o=!1,di(s)}}}function u4(e){let t,r,n,i,o;return{c(){t=R(
+),r=j(e[120]),n=j(
+),this.h()},l(s){t=N(s,
+,{role:!0,class:!0});var a=M(t);r=q(a,e[120]),n=q(a,
+),a.forEach(d),this.h()},h(){v(t,
+link disabled:text-foreground-muted-more
+ml-2]
+mb-2
+{threshold}
+{comparison}
+,n;return{c(){t=R(
+),n=j(r),this.h()},l(i){t=N(i,
+,{slot:!0});var o=M(t);n=q(o,r),o.forEach(d),this.h()},h(){v(t,
+)&&re(n,r)},d(i){i&&d(t)}}}function cf(e){let t,r;return t=new vr({props:{
+isolated-cross-risk-warning-message
+cex-warning-message
+text-xs font-semibold
+sl-specific-size-error-message
+sl-auto-resize-error-message
+tp-specific-size-error-message
+tp-auto-resize-error-message
+)&&re(n,r)},d(i){i&&d(t)}}}function A4(e){let t,r;return{c(){t=R(
+),r=j(e[115]),this.h()},l(n){t=N(n,
+,{class:!0});var i=M(t);r=q(i,e[115]),i.forEach(d),this.h()},h(){v(t,
+swap-trading-blocked-message
+close-only-warning-message
+flex-1 max-w-full max-h-[200px] overflow-y-auto break-words whitespace-normal
+),r=new Ai(!1),this.h()},l(i){t=N(i,
+)&&r.p(n)},d(i){i&&d(t)}}}function _f(e){let t,r,n,i,o,s,a,l,u;function f(b){e[319](b)}let g={id:
+};e[18]!==void 0&&(g.checked=e[18]),n=new Ea({props:g}),Qe.push(()=>vt(n,
+,f)),n.$on(
+,e[320]),a=new ve({props:{size:
+,$$slots:{default:[Y4]},$$scope:{ctx:e}}});let p=e[18]&&hf(e);return{c(){t=R(
+),w(n.$$.fragment),o=V(),s=R(
+),w(a.$$.fragment),l=V(),p&&p.c(),this.h()},l(b){t=N(b,
+,{class:!0});var _=M(t);r=N(_,
+,{class:!0});var h=M(r);y(n.$$.fragment,h),o=F(h),s=N(h,
+add-slippage-limit-checkbox
+text-2xs text-foreground-foreground
+leverage-button
+ bg-transparent hover:bg-transparent active:bg-transparent focus:bg-transparent border-transparent text-foreground-muted
+quantityChange
+showTPSL
+reduceOnlyChange
+tpslChange
+openSlippageDialog
+login
+success
+failure
+flex gap-2
+flex flex-col rounded-md bg-background-muted-more
+flex flex-col items-stretch gap-4
+flex flex-col gap-0 text-2xs
+quote has expired
+}=t,{isSell:Je=!1}=t,xt=!1,Ar=!1,kt=!1,Fr=!1,ur=0,En,Ys=2,qt=ze.Market,Me,un,lo=new Mo,ao=new Oo,Js=!1,Zs=
+,nt,hs=!1,bs=!1,Gl,Xs=
+(pointer: coarse)
+;const Dn=Number(A.mark_price),lt=Number(xe),er=lt*Dn;if(!Number.isFinite(er)||er<=0)return
+:wi>A.skew_limit_usd?qn:
+}function ol(A,Be,xe){let ht;return xe&&(Xl(A)||A===ze.TakeProfit)?ht=xe.limit:xe&&A===ze.StopLoss&&
+in xe?ht=xe.trigger:ht=Be,ht||0}function og(){It(On,xr=
+/orders/new/market
+/orders/new/limit
+Submit Order
+rfq_id
+Invalid response from order submission
+No RFQ ID returned from order submission
+positions
+orders
+PerpetualForm
+error_code
+;Io=Le,dn=`${lt.message} ${Tp} ${wi}`,fl=
+wait_until_seconds
+{wait_until_seconds}
+Error in order submission
+Destroying... ignoring quote request
+POST
+Requested quote's asset is different than current asset
+dialog.perpetual.label.triggerPrice
+trigger
+openLeverageDialog
+openMarginDialog
+tokenUnderlying
+quote
+dialog.perpetual.error.powerExceeded
+),e.$$.dirty[5]&2048&&r(123,ie=(nt==null?void 0:nt.ask)||
+default
+common.info.triggerPrice
+common.info.triggerPriceMark
+common.info.limitPriceQuoted
+dialog.perpetual.error.executeImmediately
+dialog.perpetual.error.mayNotExecute
+dialog.perpetual.error.slippageExceedsLimit
+}})),e.$$.dirty[8]&268435456&&r(113,Zt=De(
+)),e.$$.dirty[8]&268435456&&r(112,Et=De(
+)),e.$$.dirty[8]&268435456&&r(111,$e=De(
+)),e.$$.dirty[8]&268435456&&r(110,ot=De(
+)),e.$$.dirty[8]&268435456&&r(109,Ct=De(
+dialog.perpetual.error.maxNotionalExceeded
+dialog.perpetual.error.invalidReduceOnly
+dialog.perpetual.error.increaseSizing
+dialog.perpetual.error.quantityTooLow
+dialog.perpetual.error.quantityTooBig
+dialog.perpetual.error.minQuantity
+common.text.mid
+dialog.perpetual.notification.submitted.text
+dialog.perpetual.notification.submitted.header
+dialog.perpetual.notification.submitError.text
+dialog.perpetual.notification.submitError.header
+common.text.maintenance
+dialog.perpetual.notification.riskCheckError.header
+dialog.perpetual.notification.zeroPriceError.text
+dialog.perpetual.notification.rateLimitError.text
+dialog.perpetual.notification.ordersRateLimited.text
+dialog.perpetual.notification.ordersBanned.text
+common.text.view
+common.text.docs
+dialog.marginMode.cross
+dialog.marginMode.isolated
+common.error.tpsl
+common.text.takeProfit
+common.text.takeProfits
+common.text.stopLoss
+common.text.stopLosses
+common.error.cancelExistingTpsl
+dialog.perpetual.error.existingSizeSpecificTpsl
+dialog.perpetual.error.existingAutoResizeTpsl
+dialog.perpetual.error.closeOnly.header
+dividend
+dialog.perpetual.error.closeOnly.dividend
+delisting
+dialog.perpetual.error.closeOnly.delisting
+dialog.perpetual.error.closeOnly.text
+dialog.perpetual.error.marketClosed.header
+dialog.perpetual.error.marketHalted.header
+dialog.perpetual.error.swapTradingBlocked.header
+dialog.perpetual.error.swapTradingBlocked.whitelist
+dialog.perpetual.error.openInterestLimitExceeded
+dialog.perpetual.error.skewLimitExceeded
+common.turnstile.error.header
+dialog.perpetual.label.addSlippageLimitAction
+dialog.perpetual.label.maxSlippageLimit
+dialog.perpetual.slippageWarning.title
+dialog.perpetual.slippageWarning.body
+dialog.common.button.disable
+dialog.common.button.cancel
+dialog.perpetual.error.isolatedCrossRiskWarning.header
+dialog.perpetual.error.isolatedCrossRiskWarning.text
+:Er>0&&vn>0?Rr||Pn:
+),e.$$.dirty[6]&256|e.$$.dirty[8]&25165824&&r(214,Jr=yr&&is===yr&&Qn&&typeof Qn==
+w-auto flex flex-col gap-2 min-w-[290px] flex-1
+,{class:!0});var o=M(t);n=q(o,r),o.forEach(d),this.h()},h(){v(t,
+)&&re(n,r)},d(i){i&&d(t)}}}function s3(e){let t,r,n,i,o,s=e[2].content+
+,a=e[2].header&&Tf(e);return{c(){t=R(
+),a&&a.c(),r=V(),n=R(
+),i=R(
+),o=new Ai(!1),this.h()},l(l){t=N(l,
+,{class:!0,slot:!0});var u=M(t);a&&a.l(u),r=F(u),n=N(u,
+,{class:!0});var f=M(n);i=N(f,
+,{});var g=M(i);o=Di(g,!1),g.forEach(d),f.forEach(d),u.forEach(d),this.h()},h(){o.a=null,v(n,
+)&&o.p(s)},d(l){l&&d(t),a&&a.d()}}}function l3(e){let t,r,n,i,o,s;t=new oh({props:{class:
+,title:e[4]}}),t.$on(
+,e[9]),n=new Ym({props:{tokenUnderlying:e[1],isSell:e[0]}}),n.$on(
+,e[6]),n.$on(
+,e[7]),n.$on(
+,e[10]),n.$on(
+,e[11]),n.$on(
+,e[12]);let a={class:
+,position:{x:e[2].x,y:e[2].y},$$slots:{
+max-h-[calc(100dvh-120px)] overflow-y-auto scrollbar-hidden
+md:w-[400px]
+containerRef
+dialog.perpetual.label.trade
+absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center
+modal.tokenSelect.info.contactHelp
+modal.tokenSelect.info.noMatch
+link ${uu}
+mailto:${gh}
+table
+thead
+TABLE
+THEAD
+border-separate border-spacing-x-0 border-spacing-y-1 table-fixed w-full
+relative
+tbody
+TBODY
+sticky top-0 z-10
+presentation
+truncate
+symbol
+w-full
+price
+sm:min-w-[7rem]
+price_change_percentage_24h
+md:min-w-[7rem]
+volume_24h
+sumOpenInterest
+w-[10.5rem]
+funding_rate
+w-[60%] sm:w-[18rem]
+sort
+keydown
+w-[70%] sm:w-[18rem]
+tr
+td
+TR
+aria-hidden
+TD
+colspan
+padding
+),mn(r,
+true
+px
+absolute inset-0 pointer-events-auto z-0 [@media(pointer:coarse)]:pointer-events-none
+neutral
+shrink-0
+)},l(s){r=q(s,t),n=q(s,
+)&&re(r,t)},d(s){s&&(d(r),d(n))}}}function Mf(e){let t,r=vl(e[49])?
+text-foreground-intermediate shrink-0
+DEX
+)&&re(n,r)},d(i){i&&d(t)}}}function Nf(e){let t,r;return t=new Hs({props:{variant:
+,$$slots:{default:[K3]},$$scope:{ctx:e}}}),t.$on(
+,e[31]),t.$on(
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&1048576&&t!==(t=_a(n[49])+
+,f,g,p,b,_,h,$,O,I=!e[50]&&Of(e);n=new K1({props:{item:e[49],containerClass:e[50]?
+pointer-events-auto shrink-0
+min-w-5 min-h-5 shrink-0
+pointer-events-auto
+swapMarketTooltip
+swapMarketTooltipLeave
+text-2xs text-nowrap max-w-48 sm:max-w-20 truncate shrink
+text-foreground-foreground
+flex items-center gap-1.5 min-w-0 overflow-hidden
+relative flex items-center gap-2 min-w-0 overflow-hidden
+pointer-events-none opacity-30 shrink-0
+)&&re(f,u),(!O||E[0]&1048584&&g!==(g=ae(
+,P[50]?
+),w(r.$$.fragment),this.h()},l(i){t=N(i,
+,{class:!0});var o=M(t);y(r.$$.fragment,o),o.forEach(d),this.h()},h(){v(t,
+flex justify-end
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&1048576&&t!==(t=Jn(n[49].volume_24h,gn,{style:
+,currency:
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[0]&1048576&&t!==(t=Jn(n[49].sumOpenInterest,gn,{style:
+)&&re(r,t)},d(n){n&&d(r)}}}function zf(e){let t,r;return t=new Uo({props:{class:ae(et,Ho,
+data-virtual-row
+token-selector-table-row
+h-8 [transform:translate(0)] [clip-path:inset(0)]
+cursor-pointer
+opacity-50
+bg-background-muted
+hover:bg-transparent
+mousemove
+flex flex-col h-full w-full max-w-full min-h-0
+[@media(pointer:fine)]:pointer-events-none
+assets
+showSoonForNonTradeable
+sortQuery
+highlightedIndex
+usingKeyboard
+headerHeight
+scrollToIndex
+focusLastTabbable
+asc
+desc
+Tab
+lastTabbable
+betaTooltip
+betaTooltipLeave
+usingMouse
+highlightedChange
+flex-1 flex flex-col min-h-0 h-full overflow-auto
+table.markets.header.asset
+table.markets.header.price
+table.markets.header.change24h
+table.markets.header.volume24h
+table.markets.header.fundingRate
+table.markets.header.openInterest
+common.text.soon
+backdrop:bg-black/85 md:backdrop:bg-transparent w-dvw h-dvh max-w-none max-h-none md:pl-2.5
+md:pt-[168px]
+md:pt-28
+dialog
+size-4 text-input-foreground-muted
+svelte-2m2faa
+,r;return{c(){r=j(t)},l(n){r=q(n,t)},m(n,i){S(n,r,i)},p(n,i){i[2]&65536&&t!==(t=n[78].label+
+)&&re(r,t)},d(n){n&&d(r)}}}function m8(e){let t=e[78].label+
+)&&re(r,t)},d(n){n&&d(r)}}}function g8(e){let t,r,n,i;const o=[c8,f8],s=[];function a(l,u){return l[78].value===
+text-nowrap svelte-2m2faa
+,J,K,Se,oe,te,X,Ne,ie,B,H,G,de=
+,be,we,Ee,Ve,Ae,he=
+,x,ue,pe,ye,it,Ze,st,bt,Pt,Bt,gt,$t,Vt,Zt;const Et=[{size:
+},{class:
+tab-item
+min-w-14
+bg-background-muted-trade
+text-state-neutral-foreground
+xxsmall
+min-w-[126px]
+transition-all duration-300 relative items-center
+min-h-6 mt-4
+min-h-0 opacity-0
+),w(it.$$.fragment),Ze=V(),st=R(
+),w(bt.$$.fragment),Pt=V(),Bt=R(
+),w(gt.$$.fragment),this.h()},l(_e){t=N(_e,
+,{role:!0,
+:!0,class:!0,tabindex:!0});var Pe=M(t);r=N(Pe,
+,{class:!0});var qe=M(r);n=N(qe,
+,{class:!0});var Ue=M(n);i=N(Ue,
+,{class:!0});var Ut=M(i);y(o.$$.fragment,Ut),a=F(Ut),l=N(Ut,
+,{class:!0});var at=M(l);u=N(at,
+data-svelte-h
+svelte-1kd3hji
+svelte-1d3gj1r
+svelte-jsnwom
+,{tabindex:!0,href:!0,class:!0});var ft=M(ye);y(it.$$.fragment,ft),ft.forEach(d),ct.forEach(d),Ze=F(qe),st=N(qe,
+,{tabindex:!0,href:!0,class:!0});var Pr=M(st);y(bt.$$.fragment,Pr),Pr.forEach(d),Pt=F(qe),Bt=N(qe,
+,{class:!0});var ar=M(Bt);y(gt.$$.fragment,ar),ar.forEach(d),qe.forEach(d),Pe.forEach(d),this.h()},h(){v(u,
+overflow-x-auto scrollbar-hidden min-w-0 flex-1 svelte-2m2faa
+flex items-center gap-1 min-w-0 my-3 svelte-2m2faa
+flex flex-col flex-1 svelte-2m2faa
+flex overflow-x-auto scrollbar-hidden min-w-0 svelte-2m2faa
+relative overflow-hidden svelte-2m2faa
+flex flex-col min-w-0 svelte-2m2faa
+relative min-h-0 flex-1 svelte-2m2faa
+),v(ee,
+flex items-center gap-2 svelte-2m2faa
+),v(oe,
+),v(H,
+),v(Ve,
+flex justify-between flex-1 svelte-2m2faa
+/markets
+hidden sm:flex gap-10 pt-4 svelte-2m2faa
+flex sm:hidden mt-4 svelte-2m2faa
+sm:hidden transition-all duration-300 overflow-hidden svelte-2m2faa
+grid grid-rows-[auto_minmax(0,1fr)_auto] h-full min-h-0 min-w-0 svelte-2m2faa
+menu
+token-select-dialog
+flex flex-col h-full text-foreground-foreground outline-none svelte-2m2faa
+),n=new Ai(!1),this.h()},l(o){t=N(o,
+,{class:!0});var s=M(t);r=N(s,
+,{class:!0});var a=M(r);n=Di(a,!1),a.forEach(d),s.forEach(d),this.h()},h(){n.a=null,v(r,
+flex items-center gap-1 svelte-2m2faa
+flex flex-col text-2xs gap-2 w-full svelte-2m2faa
+h-[560px] md:h-[700px] md:w-[750px] lg:w-[920px] gap-2 overflow-hidden bg-background-muted-trade
+flex flex-col gap-2 h-full
+max-w-56 absolute
+bg-background-muted-more border border-alpha-foreground-foreground-4 min-w-[280px] max-w-[280px]
+favoriteAssets
+tokensList
+,Ne,ie=!1,B=!1,H={content:
+,x:0,y:0},G,de=J,be=-1,we=!0,Ee,Ve,Ae,he=
+,x=
+,ue=
+,pe=
+,ye=
+all
+Esc
+ArrowDown
+ArrowUp
+)}function Ct(me){X=me,r(1,X)}const yt=me=>Zt(me),pt=me=>Zt(me);function jt(me){ye=me,r(7,ye)}function Tt(me){Qe[me?
+common.text.tokenSearchPromptShort
+modal.tokenSelect.label.viewAll
+modal.tokenSelect.label.keyboardHintOpenMenu
+modal.tokenSelect.label.keyboardHintNavigate
+modal.tokenSelect.label.keyboardHintSelect
+modal.tokenSelect.label.keyboardHintClose
+common.text.betaTooltip
+common.filter.all
+perp
+PERP
+swap
+SWAP
+tradefi
+crypto
+UnknownAction
+Spinner
+Loading
+Alert.Add
+Alert.Edit
+Alerts.Clone
+Alerts.Remove
+Alerts.RemoveAll
+Alerts.RemoveFiltered
+Alerts.RemoveAllInactive
+Alerts.RemoveFires
+Alerts.Restart
+Alerts.RestartAllInactive
+Alerts.RestartFilteredInactive
+Alerts.Stop
+Alerts.StopAll
+Alerts.StopFilteredActive
+Alerts.ExportFiresToCSV
+AlertsLog.Clear
+Chart.AddIndicatorToAllCharts
+Chart.AddSymbolToWatchList
+Chart.AlertLabel.ToggleExtendLines
+Chart.ApplyIndicatorsToAllCharts
+Chart.Indicator.ApplyChildIndicator
+Chart.Indicator.ApplyFinancials
+Chart.Indicator.About
+Chart.Indicator.PineLogs
+Chart.Indicator.PineSource
+Chart.Indicator.AddFavorites
+Chart.ChangeTimeZone
+Chart.Clipboard.CopyPrice
+Chart.Clipboard.CopyLineTools
+Chart.Clipboard.CopySource
+Chart.Clipboard.PasteSource
+Chart.Crosshair.LockVerticalCursor
+Chart.Crosshair.PlusButton.DrawHorizontalLine
+Chart.CustomActionId
+Chart.Dialogs.ShowChangeInterval
+Chart.Dialogs.ShowChangeSymbol
+Chart.Dialogs.ShowCompareOrAddSymbol
+Chart.Dialogs.ShowGeneralSettings
+Chart.Dialogs.ShowGeneralSettings.LegendTab
+Chart.Dialogs.ShowGeneralSettings.SymbolTab
+Chart.Dialogs.ShowGeneralSettings.ScalesTab
+Chart.Dialogs.ShowGeneralSettings.EventsAndAlertsTab
+Chart.Dialogs.ShowGoToDate
+Chart.Dialogs.ShowInsertIndicators
+Chart.Dialogs.ShowInsertFinancials
+Chart.Dialogs.ShowSymbolInfo
+Chart.DrawingToolbar.ToggleVisibility
+Chart.ExternalActionId
+Chart.FavoriteDrawingToolsToolbar.Hide
+Chart.Indicator.ShowSettingsDialog
+Chart.Legend.ToggleLastDayChangeValuesVisibility
+Chart.LinkingGroupSync
+Chart.LinkingGroupSync.ChangeGroup
+Chart.Legend.ToggleBarChangeValuesVisibility
+Chart.Legend.TogglePriceSourceVisibility
+Chart.Legend.ToggleIndicatorArgumentsVisibility
+Chart.Legend.ToggleIndicatorTitlesVisibility
+Chart.Legend.ToggleIndicatorValuesVisibility
+Chart.Legend.ToggleOhlcValuesVisibility
+Chart.Legend.ToggleOpenMarketStatusVisibility
+Chart.Legend.ToggleSymbolVisibility
+Chart.Legend.ToggleVolumeVisibility
+Chart.Lines
+Chart.Lines.ToggleBidAskLinesVisibility
+Chart.Lines.ToggleHighLowLinesVisibility
+Chart.Lines.ToggleAverageLineVisibility
+Chart.Lines.TogglePrePostMarketLineVisibility
+Chart.Lines.TogglePrePostMarketPriceLineVisibility
+Chart.Lines.ToggleSeriesPrevCloseLineVisibility
+Chart.Lines.ToggleSeriesPriceLineVisibility
+Chart.LineTool.BarsPattern.ToggleFlipped
+Chart.LineTool.BarsPattern.ToggleMirrored
+Chart.LineTool.Clone
+Chart.LineTool.CreateLimitOrderFromState
+Chart.LineTool.Elliot.ChangeDegreeProperty
+Chart.LineTool.NoSync
+Chart.LineTool.Pitchfork.ChangeTypeToInside
+Chart.LineTool.Pitchfork.ChangeTypeToModifiedSchiff
+Chart.LineTool.Pitchfork.ChangeTypeToOriginal
+Chart.LineTool.Pitchfork.ChangeTypeToSchiff
+Chart.LineTool.SyncInLayout
+Chart.LineTool.SyncGlobally
+Chart.LineTool.Templates
+Chart.LineTool.Templates.Apply
+Chart.LineTool.Templates.ApplyDefaults
+Chart.LineTool.Templates.SaveAs
+Chart.LineTool.Toolbar.ChangeFontSizeProperty
+Chart.LineTool.Toolbar.ChangeLineStyleToDashed
+Chart.LineTool.Toolbar.ChangeLineStyleToDotted
+Chart.LineTool.Toolbar.ChangeLineStyleToSolid
+Chart.Marks.ToggleVisibility
+Chart.MoveChartInLayout
+Chart.MoveChartInLayout.Back
+Chart.MoveChartInLayout.Forward
+Chart.TPO.ResetAllMergesAndSplits
+Chart.TPO.SplitBlock
+Chart.TPO.MergeBlock
+Chart.ObjectTree.Show
+Chart.DataWindow.Show
+Chart.PaneControls.DeletePane
+Chart.PaneControls.MaximizePane
+Chart.PaneControls.MinimizePane
+Chart.PaneControls.MovePaneDown
+Chart.PaneControls.MovePaneUp
+Chart.PaneControls.CollapsePane
+Chart.PaneControls.RestorePane
+Chart.PriceScale.Labels
+Chart.PriceScale.Labels.ToggleBidAskLabelsVisibility
+Chart.PriceScale.Labels.ToggleHighLowPriceLabelsVisibility
+Chart.PriceScale.Labels.ToggleAveragePriceLabelVisibility
+Chart.PriceScale.Labels.ToggleIndicatorsNameLabelsVisibility
+Chart.PriceScale.Labels.ToggleIndicatorsValueLabelsVisibility
+Chart.PriceScale.Labels.TogglePrePostMarketLabelsVisibility
+Chart.PriceScale.Labels.ToggleNoOverlappingLabelsVisibility
+Chart.PriceScale.Labels.ToggleSeriesLastValueVisibility
+Chart.PriceScale.Labels.ToggleSymbolNameLabelsVisibility
+Chart.PriceScale.Labels.ToggleSymbolPrevCloseValueVisibility
+Chart.PriceScale.MergeAllScales
+Chart.PriceScale.MergeAllScalesToLeft
+Chart.PriceScale.MergeAllScalesToRight
+Chart.PriceScale.MoveToLeft
+Chart.PriceScale.MoveToRight
+Chart.PriceScale.Reset
+Chart.PriceScale.ToggleAddOrderPlusButtonVisibility
+Chart.PriceScale.ToggleAutoScale
+Chart.PriceScale.ToggleAutoScaleSeriesOnly
+Chart.PriceScale.ToggleCountdownToBarCloseVisibility
+Chart.PriceScale.ToggleIndexedTo100
+Chart.PriceScale.ToggleInvertScale
+Chart.PriceScale.ToggleLogarithmic
+Chart.PriceScale.TogglePercentage
+Chart.PriceScale.ToggleRegular
+Chart.Redo
+Chart.RemoveAllIndicators
+Chart.RemoveAllIndicatorsAndLineTools
+Chart.RemoveAllLineTools
+Chart.Scales.Reset
+Chart.Scales.ToggleLockPriceToBarRatio
+Chart.ScrollToLineTool
+Chart.SelectedObject.Hide
+Chart.SelectedObject.Remove
+Chart.SelectedObject.Show
+Chart.SelectedObject.ShowSettingsDialog
+Chart.SelectedObject.ToggleLocked
+Chart.Series.PriceScale.ToggleAutoScale
+Chart.Series.PriceScale.ToggleIndexedTo100
+Chart.Series.PriceScale.ToggleInvertPriceScale
+Chart.Series.PriceScale.ToggleLogarithmic
+Chart.Series.PriceScale.TogglePercentage
+Chart.Series.PriceScale.ToggleRegular
+Chart.SessionBreaks.ToggleVisibility
+Chart.SetSession
+Chart.Source.ChangePriceScale
+Chart.Source.MergeDown
+Chart.Source.MergeUp
+Chart.Source.MoveToNoScale
+Chart.Source.MoveToOtherScale
+Chart.Source.MoveToPane
+Chart.Source.UnmergeDown
+Chart.Source.UnmergeUp
+Chart.Source.VisualOrder
+Chart.Source.VisualOrder.BringForward
+Chart.Source.VisualOrder.BringToFront
+Chart.Source.VisualOrder.SendBackward
+Chart.Source.VisualOrder.SendToBack
+Chart.Source.ResetInputPoints
+Chart.Theme.Apply
+Chart.Theme.Apply.Custom
+Chart.Theme.SaveAs
+Chart.TimeScale.Reset
+Chart.Undo
+Chart.ShowAllIdeas
+Chart.ShowIdeasOfFollowedUsers
+Chart.ShowMyIdeasOnly
+Chart.ToggleVisibility.AllLineTools
+Chart.ToggleVisibility.ContinuousContractSwitch
+Chart.ToggleVisibility.ContractExpiration
+Chart.ToggleVisibility.Dividends
+Chart.ToggleVisibility.Earnings
+Chart.ToggleVisibility.EconomicEvents
+Chart.ToggleVisibility.Splits
+Chart.ToggleVisibility.LatestNewsAndMinds
+Chart.Source.IntervalsVisibility
+Chart.Source.IntervalsVisibility.CurrentAndAbove
+Chart.Source.IntervalsVisibility.CurrentAndBelow
+Chart.Source.IntervalsVisibility.Current
+Chart.Source.IntervalsVisibility.All
+Note.Create
+Note.Edit
+Note.Remove
+ObjectsTree.CreateGroup
+ObjectsTree.RemoveItem
+ObjectsTree.RenameItem
+ObjectsTree.ToggleItemLocked
+ObjectsTree.ToggleItemVisibility
+PineEditor.Console.CopyMessage
+PineEditor.Console.ToggleVisibility
+PineEditor.Console.Clear
+Screener.AddSymbolToCompare
+Screener.Column.Remove
+Screener.Filter.Change
+Screener.Filter.Reset
+Screener.OpenSymbolChart
+Screener.OpenSymbolOverview
+Screener.ToggleVisibility.Currency
+Screener.ToggleVisibility.Description
+Screener.ToggleVisibility.Rating
+Screener.ToggleVisibility.SymbolType
+Trading.CancelOrder
+Trading.ClosePosition
+Trading.CustomActionId
+Trading.DOMPlaceLimitOrder
+Trading.DOMPlaceMarketOrder
+Trading.DOMPlaceStopLimitOrder
+Trading.DOMPlaceStopOrder
+Trading.EditOrder
+Trading.ModifyPosition
+Trading.ReversePosition
+Trading.SellBuyButtonsToggleVisibility
+Trading.TradeFromChart
+Trading.NoOverlapMode
+Trading.ShowSelectBrokerPanel
+Trading.OrderTitle
+Trading.PositionTitle
+Watchlist.Actions
+Watchlist.AddSelectedSymbolsToCompare 
+Watchlist.AddSymbolToCompare
+Watchlist.AddSymbolToSection
+Watchlist.ChangeFlaggedGroupColor
+Watchlist.AddSymbol
+Watchlist.Create
+Watchlist.AddSelectedSymbols
+Watchlist.AddSelectedSymbols.Lists
+Watchlist.GetDisplayedTickerDescription
+Watchlist.CreateSection
+Watchlist.FlagSelectedSymbols
+Watchlist.FlagSymbol
+Watchlist.OpenSymbolChart
+Watchlist.OpenSymbolOverview
+Watchlist.RemoveSection
+Watchlist.RemoveSymbol
+Watchlist.RenameSection
+Watchlist.UnflagAllSymbols
+Watchlist.UnflagSelectedSymbols
+Watchlist.UnflagSymbol
+full_single_session
+period-back
+time-range
+market
+pre_market
+post_market
+out_of_session
+holiday
+separator
+action
+All
+BarMarks
+TimeScaleMarks
+Line
+Histogram
+Cross
+Area
+Columns
+Circles
+LineWithBreaks
+AreaWithBreaks
+StepLine
+StepLineWithDiamonds
+StepLineWithBreaks
+line
+colorer
+bar_colorer
+bg_colorer
+text_colorer
+ohlc_colorer
+wick_colorer
+border_colorer
+up_colorer
+down_colorer
+shapes
+chars
+arrows
+data
+dataoffset
+ohlc_open
+ohlc_high
+ohlc_low
+ohlc_close
+alertcondition
+None
+Pane
+DataWindow
+PriceScale
+StatusLine
+ohlc_bars
+ohlc_candles
+auto
+tiny
+normal
+large
+huge
+integer
+float
+bool
+text
+session
+source
+resolution
+time
+bar_time
+color
+text_area
+initial_capital
+default_qty_value
+default_qty_type
+pyramiding
+commission_value
+commission_type
+backtest_fill_limits_assumption
+slippage
+calc_on_order_fills
+calc_on_every_tick
+margin_long
+margin_short
+use_bar_magnifier
+process_orders_on_close
+fill_orders_on_standard_ohlc
+fixed
+cash_per_order
+percent_of_equity
+percent
+cash_per_contract
+first_visible_bar_time
+last_visible_bar_time
+subscribeRealtime
+__chart_fgcolor
+__chart_bgcolor
+Right
+Left
+NoScale
+plot_plot
+hline_hline
+StopLoss
+TrailingStop
+GuaranteedStop
+PopUp
+Notification
+CONNECTED
+CONNECTING
+DISCONNECTED
+ERROR
+Connected
+Connecting
+Disconnected
+Error
+LIMIT
+MARKET
+STOP
+STOPLIMIT
+Limit
+Market
+Stop
+StopLimit
+BUY
+SELL
+Sell
+CANCELED
+FILLED
+INACTIVE
+PLACING
+REJECTED
+WORKING
+ALL
+Canceled
+Filled
+Inactive
+Placing
+Rejected
+Working
+Order
+Position
+ORDER
+POSITION
+IndividualPosition
+TakeProfit
+LIMITPRICE
+STOPPRICE
+TAKEPROFIT
+STOPLOSS
+LimitPrice
+StopPrice
+Quantity
+SUCCESS
+Success
+Demo
+Real
+information
+demo
+live
+LogOut
+FailedRestoring
+Offline
+APIError
+TwoFactorRequired
+CancelAuthorization
+TimeOutForAuthorization
+OauthError
+BrokenConnection
+FailedSignIn
+Pips
+Ticks
+HALTED
+NOT-SHORTABLE
+HARD-TO-BORROW
+disallowed
+allowed
+allowed_with_warning
+place_order
+modify_order
+cancel_order
+modify_position
+close_position
+modify_individual_position
+close_individual_position
+close_net_position
+date
+dateOrDateTime
+fixedInCurrency
+variablePrecision
+formatQuantity
+formatPrice
+formatPriceForexSup
+formatPriceInCurrency
+integerSeparated
+localDate
+localDateOrDateTime
+percentage
+pips
+profit
+profitInInstrumentCurrency
+side
+positionSide
+status
+type
+marginPercent
+empty
+LastPriceAndPercentageValue
+LastValueAccordingToScale
+Solid
+Dotted
+Dashed
+Resolving
+Ready
+InvalidSymbol
+Snapshot
+EOD
+Pulse
+Delayed
+DelayedSteaming
+NoBars
+Replay
+CalculationError
+UnsupportedResolution
+Markers
+Stepline
+Simple
+Bar
+Candle
+Renko
+Kagi
+PnF
+LineBreak
+HeikinAshi
+HollowCandle
+Baseline
+Range
+HiLo
+Column
+LineWithMarkers
+HLCArea
+VolFootprint
+TPO
+VolCandle
+SVP
+24-hours
+12-hours
+Initial
+SeriesZOrderIsAlwaysZero
+Current
+Money
+Percentage
+Center
+Background
+Foreground
+Topmost
+Unavailable
+AvailableReadonlyAlwaysDisabled
+AvailableReadonlyAlwaysEnabled
+Available
+ViewportChangeUserAction
+DataUpdate
+SeriesRestart
+SeriesCompleted
+StudyCreation
+Chart
+alwaysOn
+visibleOnMouseOver
+alwaysOff
+Normal
+Log
+IndexedTo100
+Bars
+Candles
+HeikenAshi
+HollowCandles
+PointAndFigure
+_seriesId
+left_to_right
+right_to_left
+absolute
+Up/Down
+Total
+Delta
+AboveBar
+BelowBar
+Top
+Bottom
+Absolute
+AbsoluteUp
+AbsoluteDown
+center
+right
+top
+middle
+bottom
+1D
+Etc/UTC
+,library_path:
+,locale:
+,widgetbar:{details:!1,watchlist:!1,news:!1,datawindow:!1,watchlist_settings:{default_symbols:[]}},overrides:{
+5y
+1W
+1y
+6m
+3m
+1m
+5d
+},{text:
+,resolution:
+}],client_id:
+,user_id:
+,charts_storage_api_version:
+,favorites:{intervals:[],chartTypes:[],indicators:[],drawingTools:[]}},gd=JSON.parse('[{
+ar
+dir
+rtl
+language
+iso
+pt
+ltr
+ca
+ca_ES
+cs
+de
+en
+es
+fa
+fr
+he
+he_IL
+hu
+hu_HU
+id_ID
+it
+ja
+ko
+ms
+ms_MY
+pl
+ru
+sv
+th
+vi
+zh-Hans
+zh
+zh-Hant
+zh_TW
+el
+nl
+nl_NL
+ro
+CL v28.3.0 (internal id b985f2be @ 2024-10-24T17:11:08.681Z)
+Datafeed is not defined
+mainSeriesProperties.priceAxisProperties.lockScale
+mainSeriesProperties.priceAxisProperties.lockScale can not be set to true within the widget constructor
+light
+dark
+Using CL v28.3.0 (internal id b985f2be @ 2024-10-24T17:11:08.681Z)
+resize
+customPropertyName should begin with a double hyphen
+iframe_loading_same_origin
+iframe_loading_compatibility_mode
+string
+sameOriginLoad
+)),this._innerWindow().addEventListener(
+,function(g,p){if(g===void 0)throw new Error(`${p} is undefined`);return g}(this._innerWindowResolver,
+),{once:!0}),(this._options.autosize||this._options.fullscreen)&&(f.style.width=
+,this._options.fullscreen||(f.style.height=
+)),window.addEventListener(
+Symbol is not defined: either 'symbol' or 'load_last_chart' option must be set
+)&&console.warn(
+locale isn't supported. Using default of `en`.
+}`,location.href).href,g=JSON.parse('[
+bundles/__LANG__.4026.6f886b4ecb915f046a50.js
+bundles/9662.03109f673cda5962c847.css
+bundles/7346.a2efeed47130dd4e832c.js
+bundles/library.f5eaeb6901219f861981.js
+${b.iso}
+${b.dir}
+;const W=[],Y=[];for(const P of O)P.endsWith(
+)?W.push(`<script defer crossorigin=
+ src=
+__LANG__
+><\/script>`):P.endsWith(
+)&&Y.push(`<link type=
+ href=
+.rtl.css
+ rel=
+/>`);return[...W,...Y].join(`
+`)}(g,b.dir===
+,p)}
+`,localeLanguage:p,htmlAttrs:_,libraryPath:f}).htmlAttrs}><head><base href=
+><meta charset=
+><script>window===window.parent&&(location.href=
+)<\/script> ${$.bundles} </head><body class=
+><div class=
+ id=
+></div><script>var JSServer={},__initialEnabledFeaturesets=[
+Unexpected use of this page
+use strict
+Element
+Document
+medium
+),s='<div class=
+ role=
+tv-spinner--shown
+tv-spinner--size_
+;return this._el.className=
+.concat(e,
+).concat(this._shown?
+,this._options.locale);let o=new URL(
+);if(e){const a=new Blob([i],{type:
+}),l=URL.createObjectURL(a);o=new URL(l)}else if(t){const a=(r=this._options.library_path)!==null&&r!==void 0?r:
+;o=new URL(a+
+,location.origin)}const s=
++encodeURIComponent(this._options.symbol||
++encodeURIComponent(this._options.interval)+(this._options.toolbar_bg?
++encodeURIComponent(this._options.toolbar_bg.replace(
+)+(this._options.studies_access?
++encodeURIComponent(JSON.stringify(this._options.studies_access)):
++encodeURIComponent(JSON.stringify(this._options.widgetbar))+(this._options.drawings_access?
++encodeURIComponent(JSON.stringify(this._options.drawings_access)):
++encodeURIComponent(JSON.stringify(this._options.time_frames))+
++encodeURIComponent(this._options.locale)+
++encodeURIComponent(this._id)+
++encodeURIComponent(String(this._options.client_id))+
++encodeURIComponent(String(this._options.user_id))+(this._options.charts_storage_url?
++encodeURIComponent(this._options.charts_storage_url):
+)+(this._options.charts_storage_api_version?
++encodeURIComponent(this._options.charts_storage_api_version):
+)+(this._options.custom_css_url?
++encodeURIComponent(this._options.custom_css_url):
+)+(this._options.custom_font_family?
++encodeURIComponent(this._options.custom_font_family):
+)+(this._options.auto_save_delay?
++encodeURIComponent(String(this._options.auto_save_delay)):
++encodeURIComponent(String(this._options.debug))+(this._options.debug_broker?
++encodeURIComponent(String(this._options.debug_broker)):
+)+(this._options.snapshot_url?
++encodeURIComponent(this._options.snapshot_url):
+)+(this._options.timezone?
++encodeURIComponent(this._options.timezone):
+)+(this._options.study_count_limit?
++encodeURIComponent(String(this._options.study_count_limit)):
+)+(this._options.symbol_search_request_delay?
++encodeURIComponent(String(this._options.symbol_search_request_delay)):
+)+(this._options.compare_symbols?
++encodeURIComponent(JSON.stringify(this._options.compare_symbols)):
+)+(this._options.theme?
++encodeURIComponent(String(this._options.theme)):
+)+(this._options.header_widget_buttons_mode?
++encodeURIComponent(String(this._options.header_widget_buttons_mode)):
+)+(this._options.time_scale?
++encodeURIComponent(JSON.stringify(this._options.time_scale)):
+);return[`<iframe
+		id=
+ name=
+ data-widget-options=
+
+		${this._options.autosize||this._options.fullscreen?
+:`width=
+ height=
+`} title=
+ frameborder=
+ allowTransparency=
+ scrolling=
+ allowfullscreen style=
+>
+	</iframe>`,i]}};typeof window<
+&&(window.TradingView=window.TradingView||{},window.TradingView.version=V8);const B8=!(typeof window>
+||!window.navigator||!window.navigator.userAgent)&&window.navigator.userAgent.includes(
+),_d={supported_resolutions:W_,symbols_types:[{name:
+,value:
+}],supports_marks:!0};let Jm=[];const Zm=
+}`,description:`${s} ${i?
+(Index)
+Cannot resolve symbol
+,minmov:1,format:
+,pricescale:10**12,has_intraday:!0,visible_plots_set:
+,has_weekly_and_monthly:!1,supported_resolutions:_d.supported_resolutions,volume_precision:2,data_status:
+charting
+absolute inset-0 z-10 flex items-center justify-center
+background-color
+chart-container
+w-full h-full
+relative w-full h-full
+vr-chart-interval-favorites
+vr-chart-interval
+vr-chart-config-v3
+scalesProperties.backgroundColor
+scalesProperties.lineColor
+scalesProperties.textColor
+paneProperties.background
+paneProperties.backgroundType
+solid
+mainSeriesProperties.candleStyle.upColor
+mainSeriesProperties.candleStyle.downColor
+mainSeriesProperties.candleStyle.wickUpColor
+mainSeriesProperties.candleStyle.wickDownColor
+mainSeriesProperties.candleStyle.borderUpColor
+mainSeriesProperties.candleStyle.borderDownColor
+BTC
+chart_loaded
+header_symbol_search
+header_compare
+header_saveload
+header_quick_search
+header_undo_redo
+go_to_date
+show_interval_dialog_on_key_press
+symbol_search_hot_key
+create_volume_indicator_by_default
+create_volume_indicator_by_default_once
+display_market_status
+popup_hints
+insert_indicator_dialog_shortcut
+legend_inplace_edit
+items_favoriting
+hide_left_toolbar_by_default
+request_only_visible_range_on_reset
+IntervalWidget.quicks
+chart.lastUsedTimeBasedResolution
+chartproperties
+onAutoSaveNeeded
+tokenSelect
+initError
+#6AC15C
+#F2453D
+buyInitial
+sellInitial
+#FFFFFF
+{label1}
+{label2}
+}function $t($e=[]){try{Vt($e)}catch(ot){console.warn(
+,ot,{component:
+transparent
+cancelOrder
+invalidOrder
+decimal
+replaceOrder
+failed to draw chart position lines
+TradingViewChart
+))}`;G?G.setText(pt).setPrice(ot).setQuantity(jt).setLineColor(Ct).setBodyTextColor(Ct).onClose(()=>{P(
+,$e)}):G=J.chart().createPositionLine().setText(pt).setPrice(ot).setQuantity(jt).onClose(()=>{P(
+network
+address
+position
+activeOrders
+trades
+colors
+tvTheme
+tradingLocked
+common.text.order
+table.positions.header.estLiquidationPrice
+table.orders.label.full
+dialog.perpetual.error.mustBeAbove
+transition-all duration-300 relative flex items-center
+min-h-6
+noResult
+w-full flex items-center justify-center h-full
+closePosition
+absolute inset-0 z-50 cursor-ns-resize bg-transparent pointer-events-auto bg-foreground-destructive
+lg:order-3
+min-w-4 h-4
+flex items-center lg:order-1
+!h-4 !w-4 text-foreground-destructive hover:cursor-help
+!h-4 !w-4 text-foreground-foreground-brand
+flex gap-2 items-center lg:flex-none justify-end sm:px-0 lg:order-2 max-lg:w-full max-lg:order-last max-lg:pb-2
+flex gap-1 max-lg:gap-2 items-center flex-1 justify-end lg:justify-start
+ svelte-1jej0hi
+sortedColumn
+165px
+search
+w-full lg:min-w-[180px] lg:max-w-[250px]
+flex flex-col flex-1 lg:flex-none
+text-center
+hidden md:flex
+flex flex-col flex-1 items-center justify-center min-h-[200px] gap-y-3 relative pb-4 md:pb-0
+order_history
+flex flex-col flex-1 min-h-[200px] pb-20 lg:pb-0
+cancel
+openTooltip
+closeTooltip
+idMouseenter
+idMouseleave
+bg-background-background-trade group-hover:group-hover:bg-background-muted-trade-hover
+reversePosition
+viewPendingOrders
+closeAllPositions
+quickViewPendingOrders
+closeQuickViewPendingOrders
+addTpsl
+share
+selectedTab
+bg-background-background-trade
+),v(a,
+overflow-hidden
+flex items-center gap-2 overflow-x-scroll scrollbar-hidden py-2
+relative flex-1 overflow-hidden
+gap-2 flex flex-wrap items-center justify-between
+px-4 md:px-0
+flex-1 
+mt-2
+)&&re(n,r)},d(i){i&&d(t)}}}function T5(e){let t,r=e[45].text+
+)&&re(n,r)},d(i){i&&d(t)}}}function Fd(e){let t,r;return t=new vr({props:{type:
+)&&re(n,r),s[0]&65536&&i!==(i=wr(o[16]))&&v(t,
+transition-all duration-300 p-2.5
+p-0 md:p-0 m-0 border-0
+p-2.5 
+flex-1 p-0 md:p-0 
+transfers
+download
+border-none max-w-[160px]
+asset-summary-token-selector-mobile
+flex-1 shadow-[0_0_32px_var(--color-theme-alpha-affirmative-affirmative-40)]
+flex-1 shadow-[0_0_32px_var(--color-theme-alpha-destructive-destructive-40)]
+relative flex flex-1 flex-col items-stretch w-0
+hidden lg:flex flex-col items-stretch flex-none min-w-[330px] w-[15%]
+flex gap-1 flex-1 relative
+mobile-buy-sell-bar flex flex-1 min-w-[300px] max-w-[400px] gap-3 p-3 rounded-2xl mx-4 svelte-1jej0hi
+fixed left-0 right-0 bottom-6 z-40 flex justify-center lg:hidden
+:e[107]})),mr(window,
+,e[108]),mr(window,
+bg-background-background-trade border-none rounded-sm mt-1 md:p-2.5
+perpetual
+/quotes/indicative
+--color-theme-background-background-trade
+--color-theme-foreground-foreground
+--color-theme-foreground-foreground-brand
+--color-theme-foreground-muted
+--color-theme-foreground-destructive
+--color-theme-foreground-affirmative
+--color-theme-foreground-intermediate
+lastViewed
+lastViewedAsset
+redirect-error
+Unable to find position
+Unable to parse position qty
+replaceOrderQuoteStore
+valueAbs
+created_at_gte
+)}),dl({created_at_gte:nu(mu(new Date),6).toISOString()})):(D!==
+&&dl({created_at_gte:nu(mu(new Date),6).toISOString()}),ru([
+])),r(28,Zn=void 0),oa([
+instrument
+/positions
+/orders/tpsl
+,Je=D?`${Vm(D,
+;return Ot+Je+Ap}function ts(D){return D?f1(D)?fo(Number(D)):ha(D):
+}jd(()=>{bi&&(clearTimeout(bi),Xe.removeNotification(
+))}),Qd(()=>{qo()});function Vi(){!Ut&&Number(St)>=mm&&It(Ii,ct=!0,ct)}function ei(D){D.key===
+&&ct?It(Ii,ct=!1,ct):D.altKey&&D.code===
+?r(24,pn=!1):D.altKey&&D.code===
+&&r(24,pn=!0)}function rs(){r(23,Kr=!1),hn=!0,zi(Le,
+)}function zi(D=Le,Re=
+){D&&(r(31,Wn=D),r(32,Yr=Re),It(fa,me=!0,me))}function ns(D){hn=!1,zi(D.detail.token,D.detail.variant??
+)}function wo(){It(fa,me=!1,me),r(31,Wn=void 0),r(32,Yr=
+touches
+ns-resize
+mouseup
+touchmove
+touchend
+,document.body.style.cursor=
+,document.removeEventListener(
+,Wi),document.removeEventListener(
+,vo),document.removeEventListener(
+{priceLabel}
+{triggerLabel}
+mousedown
+touchstart
+),e.$$.dirty[0]&65536&&r(124,I=(Le==null?void 0:Le.symbol)||
+),e.$$.dirty[0]&65536&&r(125,U=((Je=Le==null?void 0:Le.dex_token_details)==null?void 0:Je.network)||
+),e.$$.dirty[4]&8192&&Number(St)>=Pl&&xr(),e.$$.dirty[0]&32768&&r(65,W=mt===
+table.common.tab.positions
+table.common.tab.openOrders
+table.common.tab.tradesHistory
+table.common.tab.orderHistory
+page.portfolio.label.fundingHistory
+page.portfolio.label.rpnl
+table.common.label.connectWallet
+modal.editOrder.cancel
+modal.editOrder.edit
+page.error.general
+page.error.noMarket
+page.error.unableToLoadTpslOrders
+page.error.unableToLoadLimitOrders
+page.error.reloadTable.text
+page.error.reloadTable.header
+page.error.chartInit
+dropdown.search
+dropdown.all
+dialog.common.button.confirm
+dialog.common.button.dismiss
+modal.editOrder.notification.replaced.text
+modal.editOrder.notification.replaced.header
+modal.editOrder.notification.replaceError.text
+modal.editOrder.notification.replaceError.header
+dialog.perpetual.error.belowMarket
+dialog.perpetual.error.aboveMarket
+common.text.limitPrice
+common.text.triggerPrice
+dialog.exportCsv.button.export
+common.text.sort
+table.positions.header.instrument
+qty
+table.positions.header.quantity
+table.positions.header.value
+upnl
+table.positions.header.pnl
+rpnl
+table.positions.header.rpnl
+trade swaps
+trade perpetual futures
+deep liquidity
