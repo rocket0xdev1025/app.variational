@@ -374,7 +374,7 @@ dialog.info.label.docs
 common.links.helpSupport
 dialog.info.label.stats
 dialog.info.label.twitter
-dialog.info.label.discord
+dialog.info.label.telegram
 dialog.info.label.home
 dialog.info.label.testnet
 common.links.privacyPolicy

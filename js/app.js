@@ -39,6 +39,12 @@ const state = {
   venue: "all",
   sector: "all",
   listKind: "all",
+  pickerKind: "all",
+  pickerVenue: "all",
+  pickerSector: "all",
+  pickerSort: "volume",
+  pickerDir: "desc",
+  pickerIndex: 0,
   page: 1,
   lbRange: "all",
   favs: new Set(["BTC", "ETH", "SOL"]),
@@ -58,6 +64,10 @@ const GLOBE = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path
 const GEAR = `<svg width="16" height="16" viewBox="0 0 16 17" fill="none"><path d="M8 10.08a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" stroke="currentColor" stroke-width="1.5"/><path d="M2.81 13.27a6.9 6.9 0 0 1-1.92-3.39l1.21-.7a6.2 6.2 0 0 1 0-2.19l-1.21-.7a6.9 6.9 0 0 1 1.92-3.39l1.21.7a6.4 6.4 0 0 1 1.9-1.1V.78a7.2 7.2 0 0 1 4 0v1.4c.7.25 1.34.6 1.9 1.1l1.21-.7a6.9 6.9 0 0 1 1.92 3.46l-1.21.7c.07.36.1.72.1 1.1s-.03.74-.1 1.1l1.21.7a6.9 6.9 0 0 1-1.92 3.39l-1.21-.7a6.4 6.4 0 0 1-1.9 1.1v1.4a7.2 7.2 0 0 1-4 0v-1.4a6.4 6.4 0 0 1-1.9-1.1l-1.21.7Z" stroke="currentColor" stroke-width="1.5"/></svg>`;
 const PEN = `<svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M9.75 5.75 6.25 2.25M9.75 5.75 11.25 4.25 7.75.75 6.25 2.25M9.75 5.75 4.5 11H1V7.5L6.25 2.25" stroke="currentColor"/></svg>`;
 const MARK = `<svg class="logo-mark" viewBox="0 0 35 24" fill="none"><path fill-rule="evenodd" d="M17.47 0c3 0 5.72 1.88 6.85 4.67l5.83 15.36c.31.73 1.01 1.19 1.76 1.19H35V24h-3.09a4.9 4.9 0 0 1-4.38-3.05l-1.65-4.33a1.85 1.85 0 0 0-3.57 0l-1.65 4.33A4.9 4.9 0 0 1 16.29 24H0v-2.78h3.05c.76 0 1.49-.5 1.79-1.26L10.6 4.8C11.68 1.94 14.42 0 17.47 0Z" fill="currentColor"/></svg>`;
+const SEARCH_ICO = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="4.25"/><path d="M10.5 10.5 14 14" stroke-linecap="round"/></svg>`;
+const SECTORS = ["all", "infra", "defi", "ai", "meme", "commodities", "equities", "preipo", "indices", "etf", "fx"];
+const SECTOR_LABEL = { all: "All", infra: "Infra", defi: "DeFi", ai: "AI", meme: "Meme", commodities: "Commodities", equities: "Equities", preipo: "Pre-IPO", indices: "Indices", etf: "ETF", fx: "FX" };
+const PICKER_FLAGS = { US100: "🇺🇸", US30: "🇺🇸", US500: "🇺🇸", DXI: "🇺🇸", EUR: "🇪🇺" };
 
 function fmtUsd(n, digits = 2) {
   if (n == null || Number.isNaN(n)) return "—";
@@ -89,6 +99,10 @@ function pct(n) {
 }
 function clsChange(n) {
   return n > 0 ? "up" : n < 0 ? "down" : "";
+}
+function annFunding(m) {
+  if (m.funding == null || !m.hours) return null;
+  return m.funding * (24 / m.hours) * 365;
 }
 function coin(m, size = 22) {
   const letter = m.symbol.slice(0, 1);
@@ -252,15 +266,15 @@ function competitionsMenu() {
 function moreMenu() {
   const items = [
     ["/announcements", "Announcements", false],
-    ["https://docs.variational.io", "Docs", true],
+    ["https://docs.varprotocol.org", "Docs", true],
     ["mailto:support@variational.io", "Help & Support", true],
     ["https://arbdata.com/variational", "Stats", true],
-    ["https://twitter.com/variational_io", "X", true],
-    ["https://discord.com/invite/variational", "Discord", true],
-    ["https://variational.io", "Variational Website", true],
+    ["https://x.com/variationaleth", "X", true],
+    ["https://t.me/variationaleth", "telegram", true],
+    ["https://www.varprotocol.org", "Variational Website", true],
     ["https://omni.testnet.variational.io", "Omni Testnet", true],
-    ["https://docs.variational.io/legal/privacy-policy", "Privacy Policy", true],
-    ["https://docs.variational.io/legal/terms-of-service", "Terms of Service", true],
+    ["https://docs.varprotocol.org/legal/privacy-policy", "Privacy Policy", true],
+    ["https://docs.varprotocol.org/legal/terms-of-service", "Terms of Service", true],
   ];
   return `<div class="popover" style="width:220px">${items
     .map(([href, label, ext]) =>
@@ -566,8 +580,6 @@ function marketsPage() {
   const pages = Math.max(1, Math.ceil(list.length / pageSize));
   state.page = Math.min(state.page, pages);
   const slice = list.slice((state.page - 1) * pageSize, state.page * pageSize);
-  const sectors = ["all", "infra", "defi", "ai", "meme", "commodities", "equities", "preipo", "indices", "etf", "fx"];
-  const sectorLabel = { all: "All", infra: "Infra", defi: "DeFi", ai: "AI", meme: "Meme", commodities: "Commodities", equities: "Equities", preipo: "Pre-IPO", indices: "Indices", etf: "ETF", fx: "FX" };
   const mini = (m) => `<div class="mini-row"><span class="left-id">${coin(m, 16)} ${m.symbol} <span class="tag">${m.kind.toUpperCase()}</span></span><span class="num ${clsChange(m.change)}">${m.change == null ? "Soon" : pct(m.change)}</span></div>`;
 
   return `
@@ -592,13 +604,14 @@ function marketsPage() {
       ${["all", "crypto", "tradfi"].map((k) => `<button class="chip ${state.venue === k ? "on" : ""}" data-venue="${k}">${k === "all" ? "All Markets" : k === "crypto" ? "Crypto" : "TradFi"}</button>`).join("")}
     </div>
     <div class="filters">
-      ${sectors.map((s) => `<button class="chip ${state.sector === s ? "on" : ""}" data-sector="${s}">${sectorLabel[s]}</button>`).join("")}
+      ${SECTORS.map((s) => `<button class="chip ${state.sector === s ? "on" : ""}" data-sector="${s}">${SECTOR_LABEL[s]}</button>`).join("")}
     </div>
     <div class="table-wrap"><table class="grid"><thead><tr>
       <th>Asset</th><th>24h Volume</th><th>Price</th><th>24h Change</th><th>FDV/MC</th><th>Open Interest</th><th>Ann. Funding</th><th>Last 7 Days</th>
     </tr></thead><tbody>
       ${slice.map((m) => {
-        const ann = m.funding == null ? "—" : `${(((m.funding / 100) * (24 / m.hours) * 365) * 100).toFixed(2)}%`;
+        const rate = annFunding(m);
+        const ann = rate == null ? "—" : `${rate.toFixed(2)}%`;
         const href = m.soon ? "" : `/${m.kind === "swap" ? "swap" : "perpetual"}/${m.symbol}`;
         return `<tr data-open="${href}" style="cursor:${href ? "pointer" : "default"}">
           <td><span class="left-id">${coin(m, 18)}<span><b>${m.symbol}</b> <span class="tag">${m.kind.toUpperCase()}</span> ${m.soon ? `<span class="tag soon">Soon</span>` : `<span class="lev-tag">${m.maxLev}x</span>`}<div style="color:var(--dim);font-size:11px">${m.name}</div></span></span></td>
@@ -643,7 +656,7 @@ function rewardsPage() {
     <p class="sub">We share revenue using rewards. You earn rewards based on your 30 day trading activity.</p>
     <div style="display:flex;gap:8px;margin-bottom:16px">
       ${state.connected ? "" : `<button class="btn-primary" data-modal="connect">Connect</button>`}
-      <a class="ghost" style="display:inline-flex;align-items:center;padding:0 12px;width:auto;text-decoration:none" href="https://docs.variational.io" target="_blank" rel="noreferrer">Docs</a>
+      <a class="ghost" style="display:inline-flex;align-items:center;padding:0 12px;width:auto;text-decoration:none" href="https://docs.varprotocol.org" target="_blank" rel="noreferrer">Docs</a>
     </div>
     <div class="tiers">
       ${TIERS.map((t) => `<button class="tier ${state.tier === t.id ? "on" : ""}" data-tier="${t.id}">
@@ -720,21 +733,179 @@ function connectModal() {
     <p class="fine">Local preview. Connecting uses a sample portfolio so you can try the ticket, positions, and transfers.</p>
   </div></div>`;
 }
-function marketsModal() {
+function pickerList() {
   const q = state.query.trim().toLowerCase();
-  const list = MARKETS.filter((m) => !m.soon && (!q || m.symbol.toLowerCase().includes(q) || m.name.toLowerCase().includes(q))).slice(0, 40);
-  return `<div class="overlay" data-close-modal><div class="modal" data-stop>
-    <div class="modal-head"><h2>Markets</h2><button class="x" data-close-modal>✕</button></div>
-    <input class="search" style="width:100%" placeholder="Search markets  /" data-modal-search value="${escapeAttr(state.query)}" autofocus>
-    <div class="filters" style="margin-bottom:0">
-      ${["all", "perp", "swap"].map((k) => `<button class="chip ${state.listKind === k ? "on" : ""}" data-kind="${k}">${k === "all" ? "All" : k.toUpperCase()}</button>`).join("")}
-      ${["all", "crypto", "tradfi"].map((k) => `<button class="chip ${state.venue === k ? "on" : ""}" data-venue="${k}">${k === "all" ? "All" : k === "crypto" ? "Crypto" : "TradFi"}</button>`).join("")}
+  const list = MARKETS.filter((m) => {
+    if (m.soon) return false;
+    if (state.pickerKind !== "all" && m.kind !== state.pickerKind) return false;
+    if (state.pickerVenue !== "all" && m.venue !== state.pickerVenue) return false;
+    if (state.pickerSector !== "all" && m.sector !== state.pickerSector) return false;
+    if (!q) return true;
+    return m.symbol.toLowerCase().includes(q) || m.name.toLowerCase().includes(q);
+  });
+  const dir = state.pickerDir === "asc" ? 1 : -1;
+  const key = state.pickerSort;
+  const num = (m) => {
+    if (key === "price") return m.price;
+    if (key === "change") return m.kind === "swap" ? null : m.change;
+    if (key === "volume") return m.volume;
+    if (key === "oi") return m.oi;
+    if (key === "funding") return annFunding(m);
+    return null;
+  };
+  list.sort((a, b) => {
+    if (key === "asset") return (a.symbol.localeCompare(b.symbol) || a.kind.localeCompare(b.kind)) * dir;
+    const av = num(a);
+    const bv = num(b);
+    const an = av == null || Number.isNaN(av);
+    const bn = bv == null || Number.isNaN(bv);
+    if (an && bn) return a.symbol.localeCompare(b.symbol);
+    if (an) return 1;
+    if (bn) return -1;
+    return (av - bv) * dir || a.symbol.localeCompare(b.symbol);
+  });
+  return list;
+}
+function sortMark(key) {
+  const active = state.pickerSort === key;
+  const up = active && state.pickerDir === "asc" ? "on" : "";
+  const down = active && state.pickerDir === "desc" ? "on" : "";
+  return `<svg class="sort-ico" viewBox="0 0 10 12" aria-hidden="true"><path class="${up}" d="M5 1.2 8.2 5H1.8Z"/><path class="${down}" d="M5 10.8 1.8 7h6.4Z"/></svg>`;
+}
+function pickerIcon(m) {
+  const flag = (m.sector === "indices" || m.sector === "fx") ? PICKER_FLAGS[m.symbol] : "";
+  if (flag) return `<span class="coin flag" style="width:22px;height:22px">${flag}</span>`;
+  return coin(m, 22);
+}
+function changeCell(m) {
+  if (m.kind === "swap" || m.change == null) return `<span class="dash">–</span>`;
+  if (!m.change) return `<span class="num">0.00%</span>`;
+  const arrow = m.change > 0 ? "↑" : "↓";
+  return `<span class="chg num ${clsChange(m.change)}">${arrow} ${Math.abs(m.change).toFixed(2)}%</span>`;
+}
+function fundingCell(m) {
+  const ann = annFunding(m);
+  if (ann == null) return "—";
+  const cls = ann > 0 ? "up" : ann < 0 ? "down" : "";
+  const txt = `${ann.toFixed(2)}%`;
+  if (m.kind === "swap") return `<span class="num ${cls}">${txt} (L) / ${txt} (S)</span>`;
+  return `<span class="num ${cls}">${txt}</span>`;
+}
+function pickerHead(key, label, right) {
+  return `<th class="${right ? "right" : ""}"><button class="th-btn ${right ? "right" : ""}" data-psort="${key}">${label}${sortMark(key)}</button></th>`;
+}
+function marketsModal() {
+  const list = pickerList();
+  if (state.pickerIndex >= list.length) state.pickerIndex = 0;
+  const venues = [["all", "All Markets"], ["crypto", "Crypto"], ["tradfi", "TradFi"]];
+  const kinds = [["all", "All"], ["perp", "PERP"], ["swap", "SWAP"]];
+  const rows = list.map((m, i) => {
+    const on = i === state.pickerIndex ? "on" : "";
+    const fav = state.favs.has(m.symbol);
+    return `<tr class="picker-row ${on}" data-pick="${m.symbol}|${m.kind}" data-index="${i}">
+      <td><div class="asset-cell">
+        <button class="star-btn ${fav ? "on" : ""}" data-fav="${m.symbol}" aria-label="${fav ? "Unfavorite" : "Favorite"} ${m.symbol}"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.7 9.8 5.6l4.3.4-3.3 2.8.9 4.3L8 11.2 4.3 13.1l.9-4.3L1.9 6l4.3-.4L8 1.7Z" fill="${fav ? "currentColor" : "none"}" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></button>
+        ${pickerIcon(m)}
+        <b>${m.symbol}</b>
+        <span class="dot">•</span>
+        <span class="tag">${m.kind === "swap" ? "SWAP" : "PERP"}</span>
+        <span class="tag">${m.maxLev}X</span>
+        ${m.venue === "tradfi" ? `<span class="tag tf">TradFi</span>` : ""}
+      </div></td>
+      <td class="num">${m.price == null ? "—" : fmtPx(m.price)}</td>
+      <td>${changeCell(m)}</td>
+      <td class="num">${m.volume == null ? "—" : fmtUsd(m.volume)}</td>
+      <td class="num">${m.oi == null ? "—" : fmtUsd(m.oi)}</td>
+      <td>${fundingCell(m)}</td>
+    </tr>`;
+  }).join("");
+  const kbd = (t) => `<kbd class="kbd">${t}</kbd>`;
+  return `<div class="overlay" data-close-modal><div class="modal picker" data-stop role="dialog" aria-label="Markets">
+    <label class="picker-search">
+      ${SEARCH_ICO}
+      <input id="picker-search" placeholder="Search" data-modal-search value="${escapeAttr(state.query)}" autocomplete="off" autofocus>
+    </label>
+    <div class="picker-bar">
+      <div class="picker-venues">
+        ${venues.map(([id, label]) => `<button class="${state.pickerVenue === id ? "on" : ""}" data-pvenue="${id}">${label}</button>`).join("")}
+      </div>
+      <div class="picker-kinds">
+        ${kinds.map(([id, label]) => `<button class="${state.pickerKind === id ? "on" : ""}" data-pkind="${id}">${label}</button>`).join("")}
+      </div>
     </div>
-    <div class="market-list">${list.map((m) => `<button class="mrow ${m.symbol === state.symbol && m.kind === state.kind ? "active" : ""}" data-pick="${m.symbol}|${m.kind}">
-      <span class="left-id"><button class="star ${state.favs.has(m.symbol) ? "on" : ""}" data-fav="${m.symbol}">★</button>${coin(m, 18)}<span><b>${m.symbol}</b> <span class="tag">${m.kind.toUpperCase()}</span> <span class="lev-tag">${m.maxLev}x</span><div style="color:var(--dim);font-size:11px">${m.name}</div></span></span>
-      <span style="text-align:right"><div class="num">${fmtPx(m.price)}</div><div class="num ${clsChange(m.change)}">${pct(m.change)}</div></span>
-    </button>`).join("")}</div>
+    <div class="picker-sectors">
+      ${SECTORS.map((s) => `<button class="${state.pickerSector === s ? "on" : ""}" data-psector="${s}">${SECTOR_LABEL[s]}</button>`).join("")}
+    </div>
+    <div class="picker-scroll market-list">
+      <table class="picker-table">
+        <thead><tr>
+          ${pickerHead("asset", "Asset", false)}
+          ${pickerHead("price", "Price", true)}
+          ${pickerHead("change", "24h Change", true)}
+          ${pickerHead("volume", "24h Volume", true)}
+          ${pickerHead("oi", "Open Interest", true)}
+          ${pickerHead("funding", "Ann. Funding", true)}
+        </tr></thead>
+        <tbody>${rows || `<tr><td class="picker-empty" colspan="6">No markets</td></tr>`}</tbody>
+      </table>
+    </div>
+    <div class="picker-foot">
+      <div class="picker-hints">
+        <span class="hint">${kbd("/")} Open menu</span>
+        <span class="hint">${kbd("↑")}${kbd("↓")} Navigate</span>
+        <span class="hint">${kbd("Enter")} Select</span>
+        <span class="hint">${kbd("Esc")} Close</span>
+      </div>
+      <a class="btn-primary picker-view" href="/markets" data-link>View All</a>
+    </div>
   </div></div>`;
+}
+function openMarkets() {
+  state.menu = null;
+  state.drawer = false;
+  state.modal = "markets";
+  state.query = "";
+  state.pickerKind = "all";
+  state.pickerVenue = "all";
+  state.pickerSector = "all";
+  state.pickerSort = "volume";
+  state.pickerDir = "desc";
+  state.pickerIndex = 0;
+  render();
+  $("#picker-search")?.focus();
+}
+function chooseMarket(symbol, kind) {
+  state.symbol = symbol;
+  state.kind = kind;
+  state.modal = null;
+  state.query = "";
+  const path = `/${kind === "swap" ? "swap" : "perpetual"}/${symbol}`;
+  if (location.pathname !== path) history.pushState({}, "", path);
+  state.path = path;
+  render();
+}
+function refreshMarketsModal() {
+  if (state.modal !== "markets") {
+    render();
+    return;
+  }
+  const overlay = $("#app .overlay");
+  if (!overlay) {
+    render();
+    return;
+  }
+  const focus = document.activeElement;
+  const wasSearch = focus && focus.id === "picker-search";
+  const start = wasSearch ? focus.selectionStart : null;
+  overlay.replaceWith(document.createRange().createContextualFragment(marketsModal()));
+  const again = $("#picker-search");
+  if (again) {
+    again.focus();
+    if (wasSearch && start != null) {
+      try { again.setSelectionRange(start, start); } catch (e) {}
+    }
+  }
+  document.querySelector(".picker-row.on")?.scrollIntoView({ block: "nearest" });
 }
 function leverageModal() {
   const m = market();
@@ -978,8 +1149,9 @@ function makePos(m, side, qty, entry, margin) {
 
 function onClick(e) {
   const t = e.target.closest("button, a");
+  const picked = e.target.closest("[data-pick]");
   if (e.target.closest("[data-stop]")) {
-    if (!t) return;
+    if (!t && !picked) return;
   }
   if (t?.hasAttribute("data-link")) {
     e.preventDefault();
@@ -1003,6 +1175,11 @@ function onClick(e) {
     render();
     return;
   }
+  if (picked && !e.target.closest("[data-fav]")) {
+    const [symbol, kind] = picked.dataset.pick.split("|");
+    chooseMarket(symbol, kind);
+    return;
+  }
   const row = e.target.closest("tr[data-open]");
   if (!t) {
     if (row && row.dataset.open) {
@@ -1021,9 +1198,13 @@ function onClick(e) {
     return;
   }
   if (t.dataset.modal) {
+    if (t.dataset.modal === "markets") {
+      openMarkets();
+      return;
+    }
     state.menu = null;
     state.modal = t.dataset.modal;
-    if (t.dataset.modal !== "markets") state.query = "";
+    state.query = "";
     render();
     return;
   }
@@ -1171,23 +1352,41 @@ function onClick(e) {
     render();
     return;
   }
-  if (t.dataset.fav) {
-    e.stopPropagation();
-    if (state.favs.has(t.dataset.fav)) state.favs.delete(t.dataset.fav);
-    else state.favs.add(t.dataset.fav);
-    render();
+  if (t?.dataset.pkind) {
+    state.pickerKind = t.dataset.pkind;
+    state.pickerIndex = 0;
+    refreshMarketsModal();
     return;
   }
-  if (t.dataset.pick) {
-    const [symbol, kind] = t.dataset.pick.split("|");
-    state.symbol = symbol;
-    state.kind = kind;
-    state.modal = null;
-    state.query = "";
-    const path = `/${kind === "swap" ? "swap" : "perpetual"}/${symbol}`;
-    if (location.pathname !== path) history.pushState({}, "", path);
-    state.path = path;
-    render();
+  if (t?.dataset.pvenue) {
+    state.pickerVenue = t.dataset.pvenue;
+    state.pickerIndex = 0;
+    refreshMarketsModal();
+    return;
+  }
+  if (t?.dataset.psector) {
+    state.pickerSector = t.dataset.psector;
+    state.pickerIndex = 0;
+    refreshMarketsModal();
+    return;
+  }
+  if (t?.dataset.psort) {
+    const key = t.dataset.psort;
+    if (state.pickerSort === key) state.pickerDir = state.pickerDir === "asc" ? "desc" : "asc";
+    else {
+      state.pickerSort = key;
+      state.pickerDir = key === "asset" ? "asc" : "desc";
+    }
+    state.pickerIndex = 0;
+    refreshMarketsModal();
+    return;
+  }
+  if (t?.dataset.fav) {
+    e.preventDefault();
+    if (state.favs.has(t.dataset.fav)) state.favs.delete(t.dataset.fav);
+    else state.favs.add(t.dataset.fav);
+    if (state.modal === "markets") refreshMarketsModal();
+    else render();
     return;
   }
   if (t.id === "transfer-go") {
@@ -1224,17 +1423,8 @@ function onInput(e) {
     state.query = el.value;
     state.page = 1;
     if (state.modal === "markets") {
-      const list = $(".market-list");
-      if (list) {
-        const keep = document.activeElement;
-        const html = marketsModal();
-        $("#app").querySelector(".overlay")?.replaceWith(document.createRange().createContextualFragment(html));
-        const again = $("[data-modal-search]");
-        if (again && keep) {
-          again.focus();
-          again.setSelectionRange(again.value.length, again.value.length);
-        }
-      }
+      state.pickerIndex = 0;
+      refreshMarketsModal();
     } else render();
     return;
   }
@@ -1304,17 +1494,34 @@ function refreshTicketNumbers() {
 }
 
 function onKey(e) {
-  if (e.key === "/" && document.activeElement?.tagName !== "INPUT") {
+  if (e.key === "/" && document.activeElement?.tagName !== "INPUT" && document.activeElement?.tagName !== "TEXTAREA") {
     e.preventDefault();
-    state.modal = "markets";
-    state.query = "";
-    render();
+    openMarkets();
+    return;
+  }
+  if (state.modal === "markets" && (e.key === "ArrowDown" || e.key === "ArrowUp")) {
+    const list = pickerList();
+    if (!list.length) return;
+    e.preventDefault();
+    state.pickerIndex = e.key === "ArrowDown"
+      ? Math.min(list.length - 1, state.pickerIndex + 1)
+      : Math.max(0, state.pickerIndex - 1);
+    refreshMarketsModal();
+    return;
+  }
+  if (state.modal === "markets" && e.key === "Enter") {
+    const list = pickerList();
+    const m = list[state.pickerIndex];
+    if (!m) return;
+    e.preventDefault();
+    chooseMarket(m.symbol, m.kind);
     return;
   }
   if (e.key === "Escape") {
     state.modal = null;
     state.menu = null;
     state.drawer = false;
+    state.query = "";
     render();
   }
 }
@@ -1353,6 +1560,14 @@ async function boot() {
   document.body.addEventListener("click", onClick);
   document.body.addEventListener("input", onInput);
   document.body.addEventListener("change", onInput);
+  document.body.addEventListener("mouseover", (e) => {
+    const row = e.target.closest?.(".picker-row");
+    if (!row || state.modal !== "markets") return;
+    const idx = Number(row.dataset.index);
+    if (!Number.isFinite(idx) || idx === state.pickerIndex) return;
+    state.pickerIndex = idx;
+    $$(".picker-row").forEach((r) => r.classList.toggle("on", Number(r.dataset.index) === idx));
+  });
   window.addEventListener("keydown", onKey);
   window.addEventListener("popstate", () => {
     state.path = location.pathname;
