@@ -67,7 +67,7 @@ const MARK = `<svg class="logo-mark" viewBox="0 0 35 24" fill="none"><path fill-
 const SEARCH_ICO = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="4.25"/><path d="M10.5 10.5 14 14" stroke-linecap="round"/></svg>`;
 const SECTORS = ["all", "infra", "defi", "ai", "meme", "commodities", "equities", "preipo", "indices", "etf", "fx"];
 const SECTOR_LABEL = { all: "All", infra: "Infra", defi: "DeFi", ai: "AI", meme: "Meme", commodities: "Commodities", equities: "Equities", preipo: "Pre-IPO", indices: "Indices", etf: "ETF", fx: "FX" };
-const PICKER_FLAGS = { US100: "🇺🇸", US30: "🇺🇸", US500: "🇺🇸", DXI: "🇺🇸", EUR: "🇪🇺" };
+const TICKER_LOGO = new Set(["NVDA", "TSLA", "AAPL", "MSFT", "AMZN", "META", "GOOGL", "ADBE", "AI", "ALB", "ASML", "BA", "BAC", "BIDU", "BILI", "CM", "CPNG"]);
 
 function fmtUsd(n, digits = 2) {
   if (n == null || Number.isNaN(n)) return "—";
@@ -104,9 +104,45 @@ function annFunding(m) {
   if (m.funding == null || !m.hours) return null;
   return m.funding * (24 / m.hours) * 365;
 }
+function usFlag() {
+  const stripes = [1.7, 5.08, 8.46, 11.85, 15.23, 18.62].map((y) => `<rect y="${y}" width="22" height="1.7" fill="#fff"/>`).join("");
+  return `<svg class="token-logo" viewBox="0 0 22 22" aria-hidden="true"><rect width="22" height="22" fill="#b22234"/>${stripes}<rect width="9.2" height="11.8" fill="#3c3b6e"/></svg>`;
+}
+function euFlag() {
+  const stars = Array.from({ length: 12 }, (_, i) => {
+    const a = (i / 12) * Math.PI * 2 - Math.PI / 2;
+    return `<circle cx="${(11 + Math.cos(a) * 5.6).toFixed(2)}" cy="${(11 + Math.sin(a) * 5.6).toFixed(2)}" r="0.85" fill="#fc0"/>`;
+  }).join("");
+  return `<svg class="token-logo" viewBox="0 0 22 22" aria-hidden="true"><rect width="22" height="22" fill="#003399"/>${stars}</svg>`;
+}
+function goldMark() {
+  return `<svg class="token-logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#e8b84a"/><circle cx="16" cy="16" r="11" fill="none" stroke="#8d6418" stroke-width="1.4"/><path d="M16 8.4 18.1 13h4.8l-3.9 2.9 1.5 4.7L16 17.7 11.5 20.6 13 15.9 9.1 13h4.8L16 8.4Z" fill="#fff8e4"/></svg>`;
+}
+function silverMark() {
+  return `<svg class="token-logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#e6e8ee"/><circle cx="16" cy="16" r="11" fill="none" stroke="#8b93a3" stroke-width="1.4"/><path d="M16 8.4 18.1 13h4.8l-3.9 2.9 1.5 4.7L16 17.7 11.5 20.6 13 15.9 9.1 13h4.8L16 8.4Z" fill="#f7f8fb"/></svg>`;
+}
+function oilMark() {
+  return `<svg class="token-logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#111827"/><path d="M16 6.2c4.2 5.2 7.2 8.2 7.2 12.1a7.2 7.2 0 0 1-14.4 0c0-3.9 3-6.9 7.2-12.1Z" fill="#f8fafc"/></svg>`;
+}
+function logoMark(m) {
+  const sym = m.symbol;
+  if (m.venue === "crypto") return `https://assets.coincap.io/assets/icons/${sym.toLowerCase()}@2x.png`;
+  if (sym === "EUR") return euFlag();
+  if (sym === "XAU") return goldMark();
+  if (sym === "XAG") return silverMark();
+  if (sym === "USOIL" || sym === "UKOIL" || sym === "HOIL" || sym === "GASOL") return oilMark();
+  if (sym === "US100" || sym === "US30" || sym === "US500" || sym === "DXI" || sym === "SPY" || sym === "QQQ" || m.sector === "indices") return usFlag();
+  if (TICKER_LOGO.has(sym)) return `https://cdn.jsdelivr.net/gh/nvstly/icons@main/ticker_icons/${sym}.png`;
+  return "";
+}
 function coin(m, size = 22) {
   const letter = m.symbol.slice(0, 1);
-  return `<span class="coin" style="width:${size}px;height:${size}px;background:${m.color};color:${m.color === "#FFFFFF" || m.color === "#D7D7D7" ? "#010612" : "#fff"}">${letter}</span>`;
+  const fg = m.color === "#FFFFFF" || m.color === "#D7D7D7" ? "#010612" : "#fff";
+  const mark = logoMark(m);
+  const box = `width:${size}px;height:${size}px`;
+  if (!mark) return `<span class="coin" style="${box};background:${m.color};color:${fg}">${letter}</span>`;
+  if (mark.startsWith("<svg")) return `<span class="coin logo" style="${box}">${mark}</span>`;
+  return `<span class="coin logo" style="${box};background:${m.color};color:${fg}"><img src="${mark}" alt="" draggable="false" onerror="this.parentElement.classList.remove('logo');this.replaceWith(document.createTextNode('${letter}'))"></span>`;
 }
 function market() {
   return getMarket(state.symbol, state.kind);
@@ -268,7 +304,7 @@ function moreMenu() {
     ["/announcements", "Announcements", false],
     ["https://docs.varprotocol.org", "Docs", true],
     ["https://arbdata.com/variational", "Stats", true],
-    ["https://x.com/variationaleth", "X", true],
+    ["https://x.com/variationalethx", "X", true],
     ["https://t.me/variationaleth", "telegram", true],
     ["https://www.varprotocol.org", "Variational Website", true],
     ["https://docs.varprotocol.org/legal/privacy-policy", "Privacy Policy", true],
@@ -770,21 +806,7 @@ function sortMark(key) {
   const down = active && state.pickerDir === "desc" ? "on" : "";
   return `<svg class="sort-ico" viewBox="0 0 10 12" aria-hidden="true"><path class="${up}" d="M5 1.2 8.2 5H1.8Z"/><path class="${down}" d="M5 10.8 1.8 7h6.4Z"/></svg>`;
 }
-function usFlag() {
-  const stripes = [1.7, 5.08, 8.46, 11.85, 15.23, 18.62].map((y) => `<rect y="${y}" width="22" height="1.7" fill="#fff"/>`).join("");
-  return `<svg class="flag-ico" viewBox="0 0 22 22" aria-hidden="true"><rect width="22" height="22" fill="#b22234"/>${stripes}<rect width="9.2" height="11.8" fill="#3c3b6e"/></svg>`;
-}
-function euFlag() {
-  const stars = Array.from({ length: 12 }, (_, i) => {
-    const a = (i / 12) * Math.PI * 2 - Math.PI / 2;
-    return `<circle cx="${(11 + Math.cos(a) * 5.6).toFixed(2)}" cy="${(11 + Math.sin(a) * 5.6).toFixed(2)}" r="0.85" fill="#fc0"/>`;
-  }).join("");
-  return `<svg class="flag-ico" viewBox="0 0 22 22" aria-hidden="true"><rect width="22" height="22" fill="#003399"/>${stars}</svg>`;
-}
 function pickerIcon(m) {
-  if (m.sector === "indices" && PICKER_FLAGS[m.symbol] === "🇺🇸") return usFlag();
-  if (m.sector === "fx" && m.symbol === "EUR") return euFlag();
-  if (m.sector === "fx" && PICKER_FLAGS[m.symbol] === "🇺🇸") return usFlag();
   return coin(m, 22);
 }
 function changeCell(m) {
