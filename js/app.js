@@ -1,4 +1,5 @@
 import { ANNOUNCEMENTS, LEADERBOARD, LOCALES, MARKETS, TIERS, getMarket } from "./data.js";
+import { WALLET_ICONS } from "./wallet-icons.js";
 import { tvResolution, tvSymbol } from "./chart.js";
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -753,17 +754,10 @@ function modal() {
   return "";
 }
 function connectModal() {
-  const wallets = [
-    ["MetaMask", "#f6851b"],
-    ["WalletConnect", "#3b99fc"],
-    ["Coinbase Wallet", "#0052ff"],
-    ["Rabby", "#8697ff"],
-    ["OKX Wallet", "#000"],
-    ["Phantom", "#ab9ff2"],
-  ];
+  const wallets = ["MetaMask", "WalletConnect", "Coinbase Wallet", "Rabby", "OKX Wallet", "Phantom"];
   return `<div class="overlay" data-close-modal><div class="modal sm" data-stop>
     <div class="modal-head"><h2>Connect</h2><button class="x" data-close-modal>✕</button></div>
-    <div class="wallets">${wallets.map(([name, color]) => `<button data-wallet="${name}"><span class="wallet-dot" style="background:${color}"></span>${name}</button>`).join("")}</div>
+    <div class="wallets">${wallets.map((name) => `<button data-wallet="${name}"><span class="wallet-icon">${WALLET_ICONS[name]}</span>${name}</button>`).join("")}</div>
     <p class="fine">Local preview. Connecting uses a sample portfolio so you can try the ticket, positions, and transfers.</p>
   </div></div>`;
 }
